@@ -1,0 +1,17 @@
+{
+	"node": "n8n-nodes-base.playwrightBrowser",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Development", "Miscellaneous"],
+	"resources": {
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.playwrightbrowser/"
+			}
+		]
+	},
+	"alias": ["browser", "automation", "web", "scrape", "screenshot", "click", "form", "crawl"],
+	"subcategories": {
+		"Development": ["Web Scraping"]
+	}
+}
