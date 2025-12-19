@@ -1,0 +1,1415 @@
+
+> n8n-monorepo@2.1.0 build /Users/richard/Desktop/projects/n8n
+> turbo run build
+
+turbo 2.5.4
+
+• Packages in scope: @n8n/ai-workflow-builder, @n8n/api-types, @n8n/backend-common, @n8n/backend-test-utils, @n8n/chat, @n8n/client-oauth2, @n8n/codemirror-lang, @n8n/codemirror-lang-sql, @n8n/composables, @n8n/config, @n8n/constants, @n8n/create-node, @n8n/db, @n8n/decorators, @n8n/design-system, @n8n/di, @n8n/errors, @n8n/eslint-config, @n8n/eslint-plugin-community-nodes, @n8n/extension-sdk, @n8n/i18n, @n8n/imap, @n8n/json-schema-to-zod, @n8n/n8n-benchmark, @n8n/n8n-extension-insights, @n8n/n8n-nodes-langchain, @n8n/node-cli, @n8n/permissions, @n8n/rest-api-client, @n8n/scan-community-package, @n8n/stores, @n8n/storybook, @n8n/stylelint-config, @n8n/task-runner, @n8n/typescript-config, @n8n/utils, @n8n/vitest-config, n8n, n8n-containers, n8n-core, n8n-editor-ui, n8n-node-dev, n8n-nodes-base, n8n-playwright, n8n-workflow
+• Running build in 45 packages
+• Remote caching disabled
+@n8n/di:build: cache hit, replaying logs ec2d4140fbd7fe14
+@n8n/di:build: 
+@n8n/di:build: > @n8n/di@0.10.0 build /Users/richard/Desktop/projects/n8n/packages/@n8n/di
+@n8n/di:build: > tsc -p tsconfig.build.json
+@n8n/di:build: 
+@n8n/stylelint-config:build: cache hit, replaying logs e6d1dc87c46fd4b7
+@n8n/stylelint-config:build: 
+@n8n/stylelint-config:build: > @n8n/stylelint-config@0.0.1 build /Users/richard/Desktop/projects/n8n/packages/@n8n/stylelint-config
+@n8n/stylelint-config:build: > tsc
+@n8n/stylelint-config:build: 
+@n8n/vitest-config:build: cache hit, replaying logs ccb3fcf59a24c856
+@n8n/vitest-config:build: 
+@n8n/vitest-config:build: > @n8n/vitest-config@1.5.0 build /Users/richard/Desktop/projects/n8n/packages/@n8n/vitest-config
+@n8n/vitest-config:build: > tsc -p tsconfig.build.json
+@n8n/vitest-config:build: 
+@n8n/client-oauth2:build: cache hit, replaying logs 261d39d3a8b97181
+@n8n/errors:build: cache hit, replaying logs 9122fcd01d915c70
+@n8n/client-oauth2:build: 
+@n8n/client-oauth2:build: > @n8n/client-oauth2@1.0.0-rc.0 build /Users/richard/Desktop/projects/n8n/packages/@n8n/client-oauth2
+@n8n/client-oauth2:build: > tsc -p tsconfig.build.json
+@n8n/client-oauth2:build: 
+@n8n/errors:build: 
+@n8n/errors:build: > @n8n/errors@0.5.0 build /Users/richard/Desktop/projects/n8n/packages/@n8n/errors
+@n8n/errors:build: > tsc -p tsconfig.build.json
+@n8n/errors:build: 
+@n8n/constants:build: cache hit, replaying logs 387dda96e63c360b
+@n8n/constants:build: 
+@n8n/constants:build: > @n8n/constants@0.15.0 build /Users/richard/Desktop/projects/n8n/packages/@n8n/constants
+@n8n/constants:build: > tsc -p tsconfig.build.json
+@n8n/constants:build: 
+@n8n/codemirror-lang:build: cache hit, replaying logs f717b4ead524b3fb
+@n8n/codemirror-lang:build: 
+@n8n/codemirror-lang:build: > @n8n/codemirror-lang@0.3.0 build /Users/richard/Desktop/projects/n8n/packages/@n8n/codemirror-lang
+@n8n/codemirror-lang:build: > tsc -p tsconfig.build.json
+@n8n/codemirror-lang:build: 
+@n8n/extension-sdk:build: cache hit, replaying logs c935988ed8fb6b12
+@n8n/extension-sdk:build: 
+@n8n/extension-sdk:build: > @n8n/extension-sdk@0.9.0 build /Users/richard/Desktop/projects/n8n/packages/@n8n/extension-sdk
+@n8n/extension-sdk:build: > pnpm "/^typecheck:.+/" && pnpm clean && tsdown && pnpm create-json-schema
+@n8n/extension-sdk:build: 
+@n8n/extension-sdk:build: 
+@n8n/extension-sdk:build: > @n8n/extension-sdk@0.9.0 clean /Users/richard/Desktop/projects/n8n/packages/@n8n/extension-sdk
+@n8n/extension-sdk:build: > rimraf dist
+@n8n/extension-sdk:build: 
+@n8n/extension-sdk:build: ℹ tsdown v0.16.5 powered by rolldown v1.0.0-beta.50
+@n8n/extension-sdk:build: ℹ Using tsdown config: /Users/richard/Desktop/projects/n8n/packages/@n8n/extension-sdk/tsdown.config.ts
+@n8n/extension-sdk:build: ℹ entry: src/backend/define.ts, src/backend/index.ts, src/backend/types.ts
+@n8n/extension-sdk:build: ℹ entry: src/frontend/define.ts, src/frontend/index.ts, src/frontend/types.ts
+@n8n/extension-sdk:build: ℹ entry: src/index.ts, src/schema.ts
+@n8n/extension-sdk:build: ℹ tsconfig: tsconfig.backend.json
+@n8n/extension-sdk:build: ℹ tsconfig: tsconfig.frontend.json
+@n8n/extension-sdk:build: ℹ tsconfig: tsconfig.common.json
+@n8n/extension-sdk:build: ℹ Build start
+@n8n/extension-sdk:build: ℹ [CJS] dist/index.cjs        0.12 kB │ gzip: 0.09 kB
+@n8n/extension-sdk:build: ℹ [CJS] dist/schema.cjs       0.12 kB │ gzip: 0.09 kB
+@n8n/extension-sdk:build: ℹ [CJS] dist/schema2.cjs.map  2.62 kB │ gzip: 0.86 kB
+@n8n/extension-sdk:build: ℹ [CJS] dist/schema2.cjs      0.90 kB │ gzip: 0.39 kB
+@n8n/extension-sdk:build: ℹ [CJS] 4 files, total: 3.76 kB
+@n8n/extension-sdk:build: ℹ [CJS] dist/backend/define.cjs       0.12 kB │ gzip: 0.09 kB
+@n8n/extension-sdk:build: ℹ [CJS] dist/backend/index.cjs        0.12 kB │ gzip: 0.09 kB
+@n8n/extension-sdk:build: ℹ [CJS] dist/backend/types.cjs        0.00 kB │ gzip: 0.02 kB
+@n8n/extension-sdk:build: ℹ [CJS] dist/backend/define2.cjs.map  0.33 kB │ gzip: 0.23 kB
+@n8n/extension-sdk:build: ℹ [CJS] dist/backend/define2.cjs      0.29 kB │ gzip: 0.20 kB
+@n8n/extension-sdk:build: ℹ [CJS] 5 files, total: 0.86 kB
+@n8n/extension-sdk:build: ℹ [CJS] dist/frontend/define.cjs       0.12 kB │ gzip: 0.09 kB
+@n8n/extension-sdk:build: ℹ [CJS] dist/frontend/index.cjs        0.12 kB │ gzip: 0.09 kB
+@n8n/extension-sdk:build: ℹ [CJS] dist/frontend/types.cjs        0.00 kB │ gzip: 0.02 kB
+@n8n/extension-sdk:build: ℹ [CJS] dist/frontend/define2.cjs.map  0.33 kB │ gzip: 0.23 kB
+@n8n/extension-sdk:build: ℹ [CJS] dist/frontend/define2.cjs      0.30 kB │ gzip: 0.20 kB
+@n8n/extension-sdk:build: ℹ [CJS] 5 files, total: 0.87 kB
+@n8n/extension-sdk:build: ℹ [ESM] dist/index.mjs        0.10 kB │ gzip: 0.09 kB
+@n8n/extension-sdk:build: ℹ [ESM] dist/schema.mjs       0.10 kB │ gzip: 0.09 kB
+@n8n/extension-sdk:build: ℹ [ESM] dist/schema2.mjs.map  2.59 kB │ gzip: 0.86 kB
+@n8n/extension-sdk:build: ℹ [ESM] dist/schema2.mjs      0.70 kB │ gzip: 0.33 kB
+@n8n/extension-sdk:build: ℹ [ESM] dist/index.d.mts      0.14 kB │ gzip: 0.10 kB
+@n8n/extension-sdk:build: ℹ [ESM] dist/schema.d.mts     0.14 kB │ gzip: 0.10 kB
+@n8n/extension-sdk:build: ℹ [ESM] dist/schema2.d.mts    2.37 kB │ gzip: 0.49 kB
+@n8n/extension-sdk:build: ℹ [ESM] 7 files, total: 6.13 kB
+@n8n/extension-sdk:build: ℹ [ESM] dist/backend/define.mjs       0.10 kB │ gzip: 0.09 kB
+@n8n/extension-sdk:build: ℹ [ESM] dist/backend/index.mjs        0.10 kB │ gzip: 0.09 kB
+@n8n/extension-sdk:build: ℹ [ESM] dist/backend/types.mjs        0.01 kB │ gzip: 0.03 kB
+@n8n/extension-sdk:build: ℹ [ESM] dist/backend/define2.mjs.map  0.33 kB │ gzip: 0.23 kB
+@n8n/extension-sdk:build: ℹ [ESM] dist/backend/define2.mjs      0.19 kB │ gzip: 0.15 kB
+@n8n/extension-sdk:build: ℹ [ESM] dist/backend/index.d.mts      0.28 kB │ gzip: 0.13 kB
+@n8n/extension-sdk:build: ℹ [ESM] dist/backend/types.d.mts      0.19 kB │ gzip: 0.11 kB
+@n8n/extension-sdk:build: ℹ [ESM] dist/backend/define.d.mts     0.12 kB │ gzip: 0.10 kB
+@n8n/extension-sdk:build: ℹ [ESM] dist/backend/types2.d.mts     0.36 kB │ gzip: 0.20 kB
+@n8n/extension-sdk:build: ℹ [ESM] dist/backend/define2.d.mts    0.27 kB │ gzip: 0.17 kB
+@n8n/extension-sdk:build: ℹ [ESM] 10 files, total: 1.94 kB
+@n8n/extension-sdk:build: ℹ [ESM] dist/frontend/define.mjs       0.10 kB │ gzip: 0.09 kB
+@n8n/extension-sdk:build: ℹ [ESM] dist/frontend/index.mjs        0.10 kB │ gzip: 0.09 kB
+@n8n/extension-sdk:build: ℹ [ESM] dist/frontend/types.mjs        0.01 kB │ gzip: 0.03 kB
+@n8n/extension-sdk:build: ℹ [ESM] dist/frontend/define2.mjs.map  0.33 kB │ gzip: 0.23 kB
+@n8n/extension-sdk:build: ℹ [ESM] dist/frontend/define2.mjs      0.19 kB │ gzip: 0.15 kB
+@n8n/extension-sdk:build: ℹ [ESM] dist/frontend/index.d.mts      0.28 kB │ gzip: 0.13 kB
+@n8n/extension-sdk:build: ℹ [ESM] dist/frontend/types.d.mts      0.20 kB │ gzip: 0.11 kB
+@n8n/extension-sdk:build: ℹ [ESM] dist/frontend/define.d.mts     0.12 kB │ gzip: 0.10 kB
+@n8n/extension-sdk:build: ℹ [ESM] dist/frontend/types2.d.mts     0.57 kB │ gzip: 0.28 kB
+@n8n/extension-sdk:build: ℹ [ESM] dist/frontend/define2.d.mts    0.27 kB │ gzip: 0.18 kB
+@n8n/extension-sdk:build: ℹ [ESM] 10 files, total: 2.18 kB
+@n8n/extension-sdk:build: ℹ [CJS] dist/index.d.cts    0.14 kB │ gzip: 0.10 kB
+@n8n/extension-sdk:build: ℹ [CJS] dist/schema.d.cts   0.14 kB │ gzip: 0.10 kB
+@n8n/extension-sdk:build: ℹ [CJS] dist/schema2.d.cts  2.37 kB │ gzip: 0.49 kB
+@n8n/extension-sdk:build: ℹ [CJS] 3 files, total: 2.65 kB
+@n8n/extension-sdk:build: ✔ Build complete in 6968ms
+@n8n/extension-sdk:build: ℹ [CJS] dist/backend/index.d.cts    0.28 kB │ gzip: 0.13 kB
+@n8n/extension-sdk:build: ℹ [CJS] dist/backend/types.d.cts    0.19 kB │ gzip: 0.11 kB
+@n8n/extension-sdk:build: ℹ [CJS] dist/backend/define.d.cts   0.12 kB │ gzip: 0.10 kB
+@n8n/extension-sdk:build: ℹ [CJS] dist/backend/types2.d.cts   0.36 kB │ gzip: 0.20 kB
+@n8n/extension-sdk:build: ℹ [CJS] dist/backend/define2.d.cts  0.27 kB │ gzip: 0.18 kB
+@n8n/extension-sdk:build: ℹ [CJS] 5 files, total: 1.22 kB
+@n8n/extension-sdk:build: ℹ [CJS] dist/frontend/index.d.cts    0.28 kB │ gzip: 0.13 kB
+@n8n/extension-sdk:build: ℹ [CJS] dist/frontend/types.d.cts    0.20 kB │ gzip: 0.11 kB
+@n8n/extension-sdk:build: ℹ [CJS] dist/frontend/define.d.cts   0.12 kB │ gzip: 0.10 kB
+@n8n/extension-sdk:build: ℹ [CJS] dist/frontend/types2.d.cts   0.57 kB │ gzip: 0.28 kB
+@n8n/extension-sdk:build: ℹ [CJS] dist/frontend/define2.d.cts  0.27 kB │ gzip: 0.18 kB
+@n8n/extension-sdk:build: ℹ [CJS] 5 files, total: 1.45 kB
+@n8n/extension-sdk:build: ✔ Build complete in 6970ms
+@n8n/extension-sdk:build: ✔ Build complete in 6970ms
+@n8n/extension-sdk:build: 
+@n8n/extension-sdk:build: > @n8n/extension-sdk@0.9.0 create-json-schema /Users/richard/Desktop/projects/n8n/packages/@n8n/extension-sdk
+@n8n/extension-sdk:build: > tsx scripts/create-json-schema.ts
+@n8n/extension-sdk:build: 
+@n8n/codemirror-lang-sql:build: cache hit, replaying logs 5367ad897a7d37d9
+@n8n/codemirror-lang-sql:build: 
+@n8n/codemirror-lang-sql:build: > @n8n/codemirror-lang-sql@1.3.0 build /Users/richard/Desktop/projects/n8n/packages/@n8n/codemirror-lang-sql
+@n8n/codemirror-lang-sql:build: > tsc -p tsconfig.build.json
+@n8n/codemirror-lang-sql:build: 
+@n8n/imap:build: cache hit, replaying logs 18eab032a4aae821
+@n8n/imap:build: 
+@n8n/imap:build: > @n8n/imap@0.16.0 build /Users/richard/Desktop/projects/n8n/packages/@n8n/imap
+@n8n/imap:build: > tsc -p tsconfig.build.json
+@n8n/imap:build: 
+@n8n/n8n-extension-insights:build: cache hit, replaying logs b491e562747b600c
+@n8n/n8n-extension-insights:build: 
+@n8n/n8n-extension-insights:build: > @n8n/n8n-extension-insights@0.11.0 build /Users/richard/Desktop/projects/n8n/packages/extensions/insights
+@n8n/n8n-extension-insights:build: > pnpm cleanup && pnpm run "/^build:.*/"
+@n8n/n8n-extension-insights:build: 
+@n8n/n8n-extension-insights:build: 
+@n8n/n8n-extension-insights:build: > @n8n/n8n-extension-insights@0.11.0 cleanup /Users/richard/Desktop/projects/n8n/packages/extensions/insights
+@n8n/n8n-extension-insights:build: > rimraf dist
+@n8n/n8n-extension-insights:build: 
+@n8n/n8n-benchmark:build: cache hit, replaying logs a59804856693b1ca
+@n8n/n8n-benchmark:build: 
+@n8n/n8n-benchmark:build: > @n8n/n8n-benchmark@2.0.0 build /Users/richard/Desktop/projects/n8n/packages/@n8n/benchmark
+@n8n/n8n-benchmark:build: > tsc -p tsconfig.build.json && tsc-alias -p tsconfig.build.json
+@n8n/n8n-benchmark:build: 
+@n8n/permissions:build: cache hit, replaying logs f5d160b08abf54aa
+@n8n/permissions:build: 
+@n8n/permissions:build: > @n8n/permissions@0.44.0 build /Users/richard/Desktop/projects/n8n/packages/@n8n/permissions
+@n8n/permissions:build: > tsc -p tsconfig.build.json
+@n8n/permissions:build: 
+@n8n/eslint-plugin-community-nodes:build: cache hit, replaying logs 8abb861dd9a6545a
+@n8n/eslint-plugin-community-nodes:build: 
+@n8n/eslint-plugin-community-nodes:build: > @n8n/eslint-plugin-community-nodes@0.7.0 build /Users/richard/Desktop/projects/n8n/packages/@n8n/eslint-plugin-community-nodes
+@n8n/eslint-plugin-community-nodes:build: > tsc --project tsconfig.build.json
+@n8n/eslint-plugin-community-nodes:build: 
+@n8n/json-schema-to-zod:build: cache hit, replaying logs b3091c55a95c3003
+@n8n/json-schema-to-zod:build: 
+@n8n/json-schema-to-zod:build: > @n8n/json-schema-to-zod@1.6.0 build /Users/richard/Desktop/projects/n8n/packages/@n8n/json-schema-to-zod
+@n8n/json-schema-to-zod:build: > rimraf ./dist && pnpm run build:types && pnpm run build:cjs && pnpm run build:esm
+@n8n/json-schema-to-zod:build: 
+@n8n/json-schema-to-zod:build: 
+@n8n/json-schema-to-zod:build: > @n8n/json-schema-to-zod@1.6.0 build:types /Users/richard/Desktop/projects/n8n/packages/@n8n/json-schema-to-zod
+@n8n/json-schema-to-zod:build: > tsc -p tsconfig.types.json
+@n8n/json-schema-to-zod:build: 
+@n8n/json-schema-to-zod:build: 
+@n8n/json-schema-to-zod:build: > @n8n/json-schema-to-zod@1.6.0 build:cjs /Users/richard/Desktop/projects/n8n/packages/@n8n/json-schema-to-zod
+@n8n/json-schema-to-zod:build: > tsc -p tsconfig.cjs.json && node postcjs.cjs
+@n8n/json-schema-to-zod:build: 
+@n8n/json-schema-to-zod:build: 
+@n8n/json-schema-to-zod:build: > @n8n/json-schema-to-zod@1.6.0 build:esm /Users/richard/Desktop/projects/n8n/packages/@n8n/json-schema-to-zod
+@n8n/json-schema-to-zod:build: > tsc -p tsconfig.esm.json && node postesm.cjs
+@n8n/json-schema-to-zod:build: 
+@n8n/eslint-config:build: cache hit, replaying logs 64e6ef68197c7b4f
+@n8n/eslint-config:build: 
+@n8n/eslint-config:build: > @n8n/eslint-config@0.0.1 build /Users/richard/Desktop/projects/n8n/packages/@n8n/eslint-config
+@n8n/eslint-config:build: > tsc
+@n8n/eslint-config:build: 
+@n8n/composables:build: cache hit, replaying logs 3b74f7af8bf70328
+@n8n/composables:build: 
+@n8n/composables:build: > @n8n/composables@1.13.0 build /Users/richard/Desktop/projects/n8n/packages/frontend/@n8n/composables
+@n8n/composables:build: > tsdown
+@n8n/composables:build: 
+@n8n/composables:build: ℹ tsdown v0.16.5 powered by rolldown v1.0.0-beta.50
+@n8n/composables:build: ℹ Using tsdown config: /Users/richard/Desktop/projects/n8n/packages/frontend/@n8n/composables/tsdown.config.ts
+@n8n/composables:build: ℹ entry: src/useDeviceSupport.ts, src/useShortKeyPress.ts, src/useThrottleWithReactiveDelay.ts
+@n8n/composables:build: ℹ tsconfig: tsconfig.json
+@n8n/composables:build: ℹ Build start
+@n8n/composables:build: ℹ Cleaning 18 files
+@n8n/composables:build: ℹ [CJS] dist/useDeviceSupport.cjs                  1.76 kB │ gzip: 0.70 kB
+@n8n/composables:build: ℹ [CJS] dist/useShortKeyPress.cjs                  0.64 kB │ gzip: 0.33 kB
+@n8n/composables:build: ℹ [CJS] dist/useThrottleWithReactiveDelay.cjs      0.61 kB │ gzip: 0.33 kB
+@n8n/composables:build: ℹ [CJS] dist/useDeviceSupport.cjs.map              2.58 kB │ gzip: 1.07 kB
+@n8n/composables:build: ℹ [CJS] dist/useShortKeyPress.cjs.map              1.26 kB │ gzip: 0.64 kB
+@n8n/composables:build: ℹ [CJS] dist/useThrottleWithReactiveDelay.cjs.map  0.88 kB │ gzip: 0.49 kB
+@n8n/composables:build: ℹ [CJS] 6 files, total: 7.73 kB
+@n8n/composables:build: ℹ [ESM] dist/useDeviceSupport.mjs                  1.68 kB │ gzip: 0.69 kB
+@n8n/composables:build: ℹ [ESM] dist/useShortKeyPress.mjs                  0.57 kB │ gzip: 0.32 kB
+@n8n/composables:build: ℹ [ESM] dist/useThrottleWithReactiveDelay.mjs      0.56 kB │ gzip: 0.31 kB
+@n8n/composables:build: ℹ [ESM] dist/useDeviceSupport.mjs.map              2.62 kB │ gzip: 1.07 kB
+@n8n/composables:build: ℹ [ESM] dist/useShortKeyPress.mjs.map              1.27 kB │ gzip: 0.64 kB
+@n8n/composables:build: ℹ [ESM] dist/useThrottleWithReactiveDelay.mjs.map  0.89 kB │ gzip: 0.48 kB
+@n8n/composables:build: ℹ [ESM] dist/useDeviceSupport.d.mts                0.47 kB │ gzip: 0.29 kB
+@n8n/composables:build: ℹ [ESM] dist/useShortKeyPress.d.mts                0.41 kB │ gzip: 0.25 kB
+@n8n/composables:build: ℹ [ESM] dist/useThrottleWithReactiveDelay.d.mts    0.30 kB │ gzip: 0.19 kB
+@n8n/composables:build: ℹ [ESM] 9 files, total: 8.78 kB
+@n8n/composables:build: ℹ [CJS] dist/useDeviceSupport.d.cts              0.47 kB │ gzip: 0.29 kB
+@n8n/composables:build: ℹ [CJS] dist/useShortKeyPress.d.cts              0.41 kB │ gzip: 0.25 kB
+@n8n/composables:build: ℹ [CJS] dist/useThrottleWithReactiveDelay.d.cts  0.30 kB │ gzip: 0.19 kB
+@n8n/composables:build: ℹ [CJS] 3 files, total: 1.18 kB
+@n8n/composables:build: ✔ Build complete in 2989ms
+@n8n/config:build: cache hit, replaying logs ee5ab260bb2651f1
+@n8n/config:build: 
+@n8n/config:build: > @n8n/config@2.0.0 build /Users/richard/Desktop/projects/n8n/packages/@n8n/config
+@n8n/config:build: > tsc -p tsconfig.build.json
+@n8n/config:build: 
+@n8n/utils:build: cache hit, replaying logs a5f285ecc3e686b9
+@n8n/utils:build: 
+@n8n/utils:build: > @n8n/utils@1.21.0 build /Users/richard/Desktop/projects/n8n/packages/@n8n/utils
+@n8n/utils:build: > tsdown
+@n8n/utils:build: 
+@n8n/utils:build: ℹ tsdown v0.16.5 powered by rolldown v1.0.0-beta.50
+@n8n/utils:build: ℹ Using tsdown config: /Users/richard/Desktop/projects/n8n/packages/@n8n/utils/tsdown.config.ts
+@n8n/utils:build: ℹ entry: src/assert.ts, src/event-bus.ts, src/event-queue.ts, src/index.ts, src/retry.ts, src/files/sanitize.ts, src/number/smartDecimal.ts, src/search/reRankSearchResults.ts, src/search/sublimeSearch.ts, src/sort/sortByProperty.ts, src/string/truncate.ts
+@n8n/utils:build: ℹ tsconfig: tsconfig.json
+@n8n/utils:build: ℹ Build start
+@n8n/utils:build: ℹ Cleaning 109 files
+@n8n/utils:build: ℹ [CJS] dist/index.cjs                        1.27 kB │ gzip: 0.33 kB
+@n8n/utils:build: ℹ [CJS] dist/search/sublimeSearch.cjs         0.18 kB │ gzip: 0.10 kB
+@n8n/utils:build: ℹ [CJS] dist/string/truncate.cjs              0.17 kB │ gzip: 0.09 kB
+@n8n/utils:build: ℹ [CJS] dist/search/reRankSearchResults.cjs   0.15 kB │ gzip: 0.09 kB
+@n8n/utils:build: ℹ [CJS] dist/sort/sortByProperty.cjs          0.13 kB │ gzip: 0.08 kB
+@n8n/utils:build: ℹ [CJS] dist/event-queue.cjs                  0.12 kB │ gzip: 0.09 kB
+@n8n/utils:build: ℹ [CJS] dist/number/smartDecimal.cjs          0.12 kB │ gzip: 0.08 kB
+@n8n/utils:build: ℹ [CJS] dist/files/sanitize.cjs               0.12 kB │ gzip: 0.09 kB
+@n8n/utils:build: ℹ [CJS] dist/event-bus.cjs                    0.11 kB │ gzip: 0.09 kB
+@n8n/utils:build: ℹ [CJS] dist/assert.cjs                       0.09 kB │ gzip: 0.07 kB
+@n8n/utils:build: ℹ [CJS] dist/retry.cjs                        0.08 kB │ gzip: 0.07 kB
+@n8n/utils:build: ℹ [CJS] dist/sublimeSearch.cjs.map           11.66 kB │ gzip: 3.92 kB
+@n8n/utils:build: ℹ [CJS] dist/sublimeSearch.cjs                5.53 kB │ gzip: 1.80 kB
+@n8n/utils:build: ℹ [CJS] dist/event-bus2.cjs.map               2.93 kB │ gzip: 0.99 kB
+@n8n/utils:build: ℹ [CJS] dist/sanitize.cjs.map                 2.91 kB │ gzip: 1.25 kB
+@n8n/utils:build: ℹ [CJS] dist/truncate.cjs.map                 2.60 kB │ gzip: 1.08 kB
+@n8n/utils:build: ℹ [CJS] dist/retry2.cjs.map                   2.35 kB │ gzip: 1.05 kB
+@n8n/utils:build: ℹ [CJS] dist/sanitize.cjs                     1.91 kB │ gzip: 0.90 kB
+@n8n/utils:build: ℹ [CJS] dist/event-queue2.cjs.map             1.75 kB │ gzip: 0.83 kB
+@n8n/utils:build: ℹ [CJS] dist/truncate.cjs                     1.67 kB │ gzip: 0.70 kB
+@n8n/utils:build: ℹ [CJS] dist/retry2.cjs                       1.54 kB │ gzip: 0.71 kB
+@n8n/utils:build: ℹ [CJS] dist/reRankSearchResults.cjs.map      1.27 kB │ gzip: 0.63 kB
+@n8n/utils:build: ℹ [CJS] dist/event-bus2.cjs                   1.11 kB │ gzip: 0.52 kB
+@n8n/utils:build: ℹ [CJS] dist/event-queue2.cjs                 1.10 kB │ gzip: 0.53 kB
+@n8n/utils:build: ℹ [CJS] dist/sortByProperty.cjs.map           0.67 kB │ gzip: 0.41 kB
+@n8n/utils:build: ℹ [CJS] dist/reRankSearchResults.cjs          0.65 kB │ gzip: 0.34 kB
+@n8n/utils:build: ℹ [CJS] dist/smartDecimal.cjs.map             0.63 kB │ gzip: 0.37 kB
+@n8n/utils:build: ℹ [CJS] dist/sortByProperty.cjs               0.47 kB │ gzip: 0.30 kB
+@n8n/utils:build: ℹ [CJS] dist/assert2.cjs.map                  0.46 kB │ gzip: 0.33 kB
+@n8n/utils:build: ℹ [CJS] dist/smartDecimal.cjs                 0.42 kB │ gzip: 0.28 kB
+@n8n/utils:build: ℹ [CJS] dist/assert2.cjs                      0.32 kB │ gzip: 0.24 kB
+@n8n/utils:build: ℹ [CJS] 31 files, total: 44.51 kB
+@n8n/utils:build: ℹ [CJS] dist/index.d.cts                       0.84 kB │ gzip: 0.30 kB
+@n8n/utils:build: ℹ [CJS] dist/event-bus.d.cts                   0.14 kB │ gzip: 0.11 kB
+@n8n/utils:build: ℹ [CJS] dist/search/sublimeSearch.d.cts        0.12 kB │ gzip: 0.10 kB
+@n8n/utils:build: ℹ [CJS] dist/string/truncate.d.cts             0.11 kB │ gzip: 0.09 kB
+@n8n/utils:build: ℹ [CJS] dist/search/reRankSearchResults.d.cts  0.10 kB │ gzip: 0.08 kB
+@n8n/utils:build: ℹ [CJS] dist/event-queue.d.cts                 0.09 kB │ gzip: 0.08 kB
+@n8n/utils:build: ℹ [CJS] dist/sort/sortByProperty.d.cts         0.09 kB │ gzip: 0.08 kB
+@n8n/utils:build: ℹ [CJS] dist/files/sanitize.d.cts              0.09 kB │ gzip: 0.08 kB
+@n8n/utils:build: ℹ [CJS] dist/number/smartDecimal.d.cts         0.08 kB │ gzip: 0.07 kB
+@n8n/utils:build: ℹ [CJS] dist/assert.d.cts                      0.06 kB │ gzip: 0.07 kB
+@n8n/utils:build: ℹ [CJS] dist/retry.d.cts                       0.06 kB │ gzip: 0.07 kB
+@n8n/utils:build: ℹ [CJS] dist/event-bus2.d.cts                  0.99 kB │ gzip: 0.35 kB
+@n8n/utils:build: ℹ [CJS] dist/sublimeSearch.d.cts               0.39 kB │ gzip: 0.25 kB
+@n8n/utils:build: ℹ [CJS] dist/reRankSearchResults.d.cts         0.37 kB │ gzip: 0.22 kB
+@n8n/utils:build: ℹ [CJS] dist/truncate.d.cts                    0.31 kB │ gzip: 0.19 kB
+@n8n/utils:build: ℹ [CJS] dist/retry2.d.cts                      0.28 kB │ gzip: 0.22 kB
+@n8n/utils:build: ℹ [CJS] dist/event-queue2.d.cts                0.24 kB │ gzip: 0.18 kB
+@n8n/utils:build: ℹ [CJS] dist/sortByProperty.d.cts              0.22 kB │ gzip: 0.17 kB
+@n8n/utils:build: ℹ [CJS] dist/sanitize.d.cts                    0.20 kB │ gzip: 0.16 kB
+@n8n/utils:build: ℹ [CJS] dist/smartDecimal.d.cts                0.20 kB │ gzip: 0.15 kB
+@n8n/utils:build: ℹ [CJS] dist/assert2.d.cts                     0.18 kB │ gzip: 0.15 kB
+@n8n/utils:build: ℹ [CJS] 21 files, total: 5.16 kB
+@n8n/utils:build: ℹ [ESM] dist/index.mjs                          0.78 kB │ gzip: 0.28 kB
+@n8n/utils:build: ℹ [ESM] dist/search/sublimeSearch.mjs           0.12 kB │ gzip: 0.10 kB
+@n8n/utils:build: ℹ [ESM] dist/string/truncate.mjs                0.12 kB │ gzip: 0.09 kB
+@n8n/utils:build: ℹ [ESM] dist/search/reRankSearchResults.mjs     0.10 kB │ gzip: 0.08 kB
+@n8n/utils:build: ℹ [ESM] dist/event-queue.mjs                    0.09 kB │ gzip: 0.08 kB
+@n8n/utils:build: ℹ [ESM] dist/sort/sortByProperty.mjs            0.09 kB │ gzip: 0.08 kB
+@n8n/utils:build: ℹ [ESM] dist/files/sanitize.mjs                 0.09 kB │ gzip: 0.08 kB
+@n8n/utils:build: ℹ [ESM] dist/event-bus.mjs                      0.08 kB │ gzip: 0.08 kB
+@n8n/utils:build: ℹ [ESM] dist/number/smartDecimal.mjs            0.08 kB │ gzip: 0.07 kB
+@n8n/utils:build: ℹ [ESM] dist/assert.mjs                         0.06 kB │ gzip: 0.07 kB
+@n8n/utils:build: ℹ [ESM] dist/retry.mjs                          0.06 kB │ gzip: 0.07 kB
+@n8n/utils:build: ℹ [ESM] dist/sublimeSearch.mjs.map             11.66 kB │ gzip: 3.92 kB
+@n8n/utils:build: ℹ [ESM] dist/sublimeSearch.mjs                  5.33 kB │ gzip: 1.75 kB
+@n8n/utils:build: ℹ [ESM] dist/event-bus2.mjs.map                 2.93 kB │ gzip: 0.99 kB
+@n8n/utils:build: ℹ [ESM] dist/sanitize.mjs.map                   2.91 kB │ gzip: 1.25 kB
+@n8n/utils:build: ℹ [ESM] dist/truncate.mjs.map                   2.60 kB │ gzip: 1.08 kB
+@n8n/utils:build: ℹ [ESM] dist/retry2.mjs.map                     2.35 kB │ gzip: 1.05 kB
+@n8n/utils:build: ℹ [ESM] dist/sanitize.mjs                       1.82 kB │ gzip: 0.84 kB
+@n8n/utils:build: ℹ [ESM] dist/event-queue2.mjs.map               1.75 kB │ gzip: 0.83 kB
+@n8n/utils:build: ℹ [ESM] dist/truncate.mjs                       1.47 kB │ gzip: 0.65 kB
+@n8n/utils:build: ℹ [ESM] dist/retry2.mjs                         1.45 kB │ gzip: 0.67 kB
+@n8n/utils:build: ℹ [ESM] dist/reRankSearchResults.mjs.map        1.27 kB │ gzip: 0.63 kB
+@n8n/utils:build: ℹ [ESM] dist/event-bus2.mjs                     1.02 kB │ gzip: 0.47 kB
+@n8n/utils:build: ℹ [ESM] dist/event-queue2.mjs                   1.00 kB │ gzip: 0.48 kB
+@n8n/utils:build: ℹ [ESM] dist/sortByProperty.mjs.map             0.67 kB │ gzip: 0.41 kB
+@n8n/utils:build: ℹ [ESM] dist/smartDecimal.mjs.map               0.63 kB │ gzip: 0.37 kB
+@n8n/utils:build: ℹ [ESM] dist/reRankSearchResults.mjs            0.55 kB │ gzip: 0.30 kB
+@n8n/utils:build: ℹ [ESM] dist/assert2.mjs.map                    0.46 kB │ gzip: 0.33 kB
+@n8n/utils:build: ℹ [ESM] dist/sortByProperty.mjs                 0.38 kB │ gzip: 0.25 kB
+@n8n/utils:build: ℹ [ESM] dist/smartDecimal.mjs                   0.33 kB │ gzip: 0.22 kB
+@n8n/utils:build: ℹ [ESM] dist/assert2.mjs                        0.24 kB │ gzip: 0.19 kB
+@n8n/utils:build: ℹ [ESM] dist/index.d.mts                        0.84 kB │ gzip: 0.30 kB
+@n8n/utils:build: ℹ [ESM] dist/event-bus.d.mts                    0.14 kB │ gzip: 0.11 kB
+@n8n/utils:build: ℹ [ESM] dist/search/sublimeSearch.d.mts         0.12 kB │ gzip: 0.10 kB
+@n8n/utils:build: ℹ [ESM] dist/string/truncate.d.mts              0.11 kB │ gzip: 0.09 kB
+@n8n/utils:build: ℹ [ESM] dist/search/reRankSearchResults.d.mts   0.10 kB │ gzip: 0.08 kB
+@n8n/utils:build: ℹ [ESM] dist/event-queue.d.mts                  0.09 kB │ gzip: 0.08 kB
+@n8n/utils:build: ℹ [ESM] dist/sort/sortByProperty.d.mts          0.09 kB │ gzip: 0.08 kB
+@n8n/utils:build: ℹ [ESM] dist/files/sanitize.d.mts               0.09 kB │ gzip: 0.08 kB
+@n8n/utils:build: ℹ [ESM] dist/number/smartDecimal.d.mts          0.08 kB │ gzip: 0.07 kB
+@n8n/utils:build: ℹ [ESM] dist/assert.d.mts                       0.06 kB │ gzip: 0.07 kB
+@n8n/utils:build: ℹ [ESM] dist/retry.d.mts                        0.06 kB │ gzip: 0.07 kB
+@n8n/utils:build: ℹ [ESM] dist/event-bus2.d.mts                   0.99 kB │ gzip: 0.35 kB
+@n8n/utils:build: ℹ [ESM] dist/sublimeSearch.d.mts                0.39 kB │ gzip: 0.25 kB
+@n8n/utils:build: ℹ [ESM] dist/reRankSearchResults.d.mts          0.37 kB │ gzip: 0.22 kB
+@n8n/utils:build: ℹ [ESM] dist/truncate.d.mts                     0.31 kB │ gzip: 0.19 kB
+@n8n/utils:build: ℹ [ESM] dist/retry2.d.mts                       0.28 kB │ gzip: 0.22 kB
+@n8n/utils:build: ℹ [ESM] dist/event-queue2.d.mts                 0.24 kB │ gzip: 0.18 kB
+@n8n/utils:build: ℹ [ESM] dist/sortByProperty.d.mts               0.22 kB │ gzip: 0.17 kB
+@n8n/utils:build: ℹ [ESM] dist/sanitize.d.mts                     0.20 kB │ gzip: 0.16 kB
+@n8n/utils:build: ℹ [ESM] dist/smartDecimal.d.mts                 0.20 kB │ gzip: 0.15 kB
+@n8n/utils:build: ℹ [ESM] dist/assert2.d.mts                      0.18 kB │ gzip: 0.15 kB
+@n8n/utils:build: ℹ [ESM] 52 files, total: 47.63 kB
+@n8n/utils:build: ✔ Build complete in 2666ms
+@n8n/node-cli:build: cache hit, replaying logs cdecccc5c7228639
+@n8n/node-cli:build: 
+@n8n/node-cli:build: > @n8n/node-cli@0.17.0 build /Users/richard/Desktop/projects/n8n/packages/@n8n/node-cli
+@n8n/node-cli:build: > tsc -p tsconfig.build.json && pnpm copy-templates
+@n8n/node-cli:build: 
+@n8n/node-cli:build: 
+@n8n/node-cli:build: > @n8n/node-cli@0.17.0 copy-templates /Users/richard/Desktop/projects/n8n/packages/@n8n/node-cli
+@n8n/node-cli:build: > node scripts/copy-templates.mjs
+@n8n/node-cli:build: 
+@n8n/design-system:build: cache hit, replaying logs bb25f56663f3dfaa
+@n8n/design-system:build: 
+@n8n/design-system:build: > @n8n/design-system@2.1.0 build /Users/richard/Desktop/projects/n8n/packages/frontend/@n8n/design-system
+@n8n/design-system:build: > vite build
+@n8n/design-system:build: 
+@n8n/design-system:build: rolldown-vite v7.1.16 building for production...
+@n8n/design-system:build: Browserslist: browsers data (caniuse-lite) is 7 months old. Please run:
+@n8n/design-system:build:   npx update-browserslist-db@latest
+@n8n/design-system:build:   Why you should do it regularly: https://github.com/browserslist/update-db#readme
+@n8n/design-system:build: [2K@n8n/design-system:build: transforming...[32m✓[39m 2754 modules transformed.
+@n8n/design-system:build: rendering chunks...
+@n8n/design-system:build: computing gzip size...
+@n8n/design-system:build: [2mdist/[22m[35mdesign-system.css        [39m[1m[2m  132.15 kB[22m[22m[2m │ gzip:  20.87 kB[22m
+@n8n/design-system:build: [2mdist/[22m[36men-BqjV0Zi0.js           [39m[1m[2m    0.08 kB[22m[22m[2m │ gzip:   0.08 kB[22m
+@n8n/design-system:build: [2mdist/[22m[36men-Dj21Qf2x.js           [39m[1m[2m    4.83 kB[22m[22m[2m │ gzip:   1.74 kB[22m
+@n8n/design-system:build: [2mdist/[22m[36mn8n-design-system.es.js  [39m[1m[33m1,929.78 kB[39m[22m[2m │ gzip: 473.72 kB[22m
+@n8n/design-system:build: [2K@n8n/design-system:build: transforming...[32m✓[39m 2754 modules transformed.
+@n8n/design-system:build: rendering chunks...
+@n8n/design-system:build: computing gzip size...
+@n8n/design-system:build: [2mdist/[22m[35mdesign-system.css         [39m[1m[2m  132.15 kB[22m[22m[2m │ gzip:  20.87 kB[22m
+@n8n/design-system:build: [2mdist/[22m[36mn8n-design-system.umd.js  [39m[1m[33m1,443.54 kB[39m[22m[2m │ gzip: 414.93 kB[22m
+@n8n/design-system:build: ✓ built in 8.10s
+@n8n/chat:build: cache hit, replaying logs 09e28b5d4e0702d1
+@n8n/chat:build: 
+@n8n/chat:build: > @n8n/chat@1.1.0 build /Users/richard/Desktop/projects/n8n/packages/frontend/@n8n/chat
+@n8n/chat:build: > pnpm build:vite && pnpm build:bundle
+@n8n/chat:build: 
+@n8n/chat:build: 
+@n8n/chat:build: > @n8n/chat@1.1.0 build:vite /Users/richard/Desktop/projects/n8n/packages/frontend/@n8n/chat
+@n8n/chat:build: > cross-env vite build
+@n8n/chat:build: 
+@n8n/chat:build: rolldown-vite v7.1.16 building for production...
+@n8n/chat:build: [2K@n8n/chat:build: transforming...[32m✓[39m 2854 modules transformed.
+@n8n/chat:build: rendering chunks...
+@n8n/chat:build: [plugin builtin:reporter] 
+@n8n/chat:build: (!) /Users/richard/Desktop/projects/n8n/packages/frontend/@n8n/design-system/src/locale/lang/en.ts is dynamically imported by /Users/richard/Desktop/projects/n8n/packages/frontend/@n8n/design-system/src/locale/index.ts but also statically imported by /Users/richard/Desktop/projects/n8n/packages/frontend/@n8n/design-system/src/locale/index.ts, dynamic import will not move module into another chunk.
+@n8n/chat:build: 
+@n8n/chat:build: 
+@n8n/chat:build: [vite:dts] Start generate declaration files...
+@n8n/chat:build: [vite:dts] Declaration files built in 29212ms.
+@n8n/chat:build: 
+@n8n/chat:build: computing gzip size...
+@n8n/chat:build: [2mdist/[22m[35mchat.css    [39m[1m[2m 63.82 kB[22m[22m[2m │ gzip:   9.84 kB[22m
+@n8n/chat:build: [2mdist/[22m[36mchat.es.js  [39m[1m[33m948.04 kB[39m[22m[2m │ gzip: 245.36 kB[22m
+@n8n/chat:build: [2K@n8n/chat:build: transforming...[32m✓[39m 2854 modules transformed.
+@n8n/chat:build: rendering chunks...
+@n8n/chat:build: computing gzip size...
+@n8n/chat:build: [2mdist/[22m[35mchat.css     [39m[1m[2m 63.82 kB[22m[22m[2m │ gzip:   9.84 kB[22m
+@n8n/chat:build: [2mdist/[22m[36mchat.umd.js  [39m[1m[33m694.64 kB[39m[22m[2m │ gzip: 214.89 kB[22m
+@n8n/chat:build: ✓ built in 49.52s
+@n8n/chat:build: 
+@n8n/chat:build: > @n8n/chat@1.1.0 build:bundle /Users/richard/Desktop/projects/n8n/packages/frontend/@n8n/chat
+@n8n/chat:build: > cross-env INCLUDE_VUE=true vite build
+@n8n/chat:build: 
+@n8n/chat:build: rolldown-vite v7.1.16 building for production...
+@n8n/chat:build: [2K@n8n/chat:build: transforming...[32m✓[39m 2857 modules transformed.
+@n8n/chat:build: rendering chunks...
+@n8n/chat:build: [plugin builtin:reporter] 
+@n8n/chat:build: (!) /Users/richard/Desktop/projects/n8n/packages/frontend/@n8n/design-system/src/locale/lang/en.ts is dynamically imported by /Users/richard/Desktop/projects/n8n/packages/frontend/@n8n/design-system/src/locale/index.ts but also statically imported by /Users/richard/Desktop/projects/n8n/packages/frontend/@n8n/design-system/src/locale/index.ts, dynamic import will not move module into another chunk.
+@n8n/chat:build: 
+@n8n/chat:build: 
+@n8n/chat:build: [vite:dts] Start generate declaration files...
+@n8n/chat:build: [vite:dts] Declaration files built in 36331ms.
+@n8n/chat:build: 
+@n8n/chat:build: computing gzip size...
+@n8n/chat:build: [2mdist/[22m[35mchat.css           [39m[1m[2m   63.82 kB[22m[22m[2m │ gzip:   9.84 kB[22m
+@n8n/chat:build: [2mdist/[22m[36mchat.bundle.es.js  [39m[1m[33m1,032.79 kB[39m[22m[2m │ gzip: 272.96 kB[22m
+@n8n/chat:build: [2K@n8n/chat:build: transforming...[32m✓[39m 2857 modules transformed.
+@n8n/chat:build: rendering chunks...
+@n8n/chat:build: computing gzip size...
+@n8n/chat:build: [2mdist/[22m[35mchat.css            [39m[1m[2m 63.82 kB[22m[22m[2m │ gzip:   9.84 kB[22m
+@n8n/chat:build: [2mdist/[22m[36mchat.bundle.umd.js  [39m[1m[33m699.66 kB[39m[22m[2m │ gzip: 235.40 kB[22m
+@n8n/chat:build: ✓ built in 59.47s
+n8n-workflow:build: cache hit, replaying logs ce43f09d57e6f2ad
+n8n-workflow:build: 
+n8n-workflow:build: > n8n-workflow@2.1.0 build /Users/richard/Desktop/projects/n8n/packages/workflow
+n8n-workflow:build: > tsc --build tsconfig.build.esm.json tsconfig.build.cjs.json
+n8n-workflow:build: 
+@n8n/stores:build: cache hit, replaying logs 2fdd860c3aad2b60
+@n8n/stores:build: 
+@n8n/stores:build: > @n8n/stores@2.1.0 build /Users/richard/Desktop/projects/n8n/packages/frontend/@n8n/stores
+@n8n/stores:build: > tsdown
+@n8n/stores:build: 
+@n8n/stores:build: ℹ tsdown v0.16.5 powered by rolldown v1.0.0-beta.50
+@n8n/stores:build: ℹ Using tsdown config: /Users/richard/Desktop/projects/n8n/packages/frontend/@n8n/stores/tsdown.config.ts
+@n8n/stores:build: ℹ entry: src/constants.ts, src/index.ts, src/metaTagConfig.ts, src/useAgentRequestStore.ts, src/useRootStore.ts
+@n8n/stores:build: ℹ tsconfig: tsconfig.json
+@n8n/stores:build: ℹ Build start
+@n8n/stores:build: ℹ Cleaning 34 files
+@n8n/stores:build: ℹ [CJS] dist/useRootStore.cjs              5.68 kB │ gzip: 1.28 kB
+@n8n/stores:build: ℹ [CJS] dist/useAgentRequestStore.cjs      1.90 kB │ gzip: 0.57 kB
+@n8n/stores:build: ℹ [CJS] dist/metaTagConfig.cjs             0.23 kB │ gzip: 0.11 kB
+@n8n/stores:build: ℹ [CJS] dist/constants.cjs                 0.10 kB │ gzip: 0.08 kB
+@n8n/stores:build: ℹ [CJS] dist/index.cjs                     0.10 kB │ gzip: 0.08 kB
+@n8n/stores:build: ℹ [CJS] dist/useRootStore.cjs.map          9.94 kB │ gzip: 2.19 kB
+@n8n/stores:build: ℹ [CJS] dist/useAgentRequestStore.cjs.map  3.72 kB │ gzip: 1.15 kB
+@n8n/stores:build: ℹ [CJS] dist/constants2.cjs.map            2.10 kB │ gzip: 0.97 kB
+@n8n/stores:build: ℹ [CJS] dist/metaTagConfig2.cjs.map        1.85 kB │ gzip: 0.76 kB
+@n8n/stores:build: ℹ [CJS] dist/constants2.cjs                1.55 kB │ gzip: 0.82 kB
+@n8n/stores:build: ℹ [CJS] dist/metaTagConfig2.cjs            1.34 kB │ gzip: 0.51 kB
+@n8n/stores:build: ℹ [CJS] 11 files, total: 28.51 kB
+@n8n/stores:build: [33m[EMPTY_IMPORT_META] Warning:[0m `import.meta` may not be a valid syntax with the `cjs` output format.
+@n8n/stores:build:    [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/useRootStore.ts:8:34 [38;5;246m][0m
+@n8n/stores:build:    [38;5;246m│[0m
+@n8n/stores:build:  [38;5;246m8 │[0m [38;5;249mc[0m[38;5;249mo[0m[38;5;249mn[0m[38;5;249ms[0m[38;5;249mt[0m[38;5;249m [0m[38;5;249m{[0m[38;5;249m [0m[38;5;249mV[0m[38;5;249mU[0m[38;5;249mE[0m[38;5;249m_[0m[38;5;249mA[0m[38;5;249mP[0m[38;5;249mP[0m[38;5;249m_[0m[38;5;249mU[0m[38;5;249mR[0m[38;5;249mL[0m[38;5;249m_[0m[38;5;249mB[0m[38;5;249mA[0m[38;5;249mS[0m[38;5;249mE[0m[38;5;249m_[0m[38;5;249mA[0m[38;5;249mP[0m[38;5;249mI[0m[38;5;249m [0m[38;5;249m}[0m[38;5;249m [0m[38;5;249m=[0m[38;5;249m [0mimport.meta[38;5;249m.[0m[38;5;249me[0m[38;5;249mn[0m[38;5;249mv[0m[38;5;249m;[0m
+@n8n/stores:build:  [38;5;240m  │[0m                                  ─────┬─────  
+@n8n/stores:build:  [38;5;240m  │[0m                                       ╰─────── This `import.meta` will be replaced with an empty object (`{}`) automatically. If this is desired, you can suppress this warning by adding `transform.define: { 'import.meta': {} }`. If `import.meta` needs to be kept as-is, you need to set the output format to `esm`.
+@n8n/stores:build: [38;5;246m───╯[0m
+@n8n/stores:build: 
+@n8n/stores:build: ℹ [ESM] dist/useRootStore.mjs               5.43 kB │ gzip: 1.25 kB
+@n8n/stores:build: ℹ [ESM] dist/useAgentRequestStore.mjs       1.86 kB │ gzip: 0.55 kB
+@n8n/stores:build: ℹ [ESM] dist/metaTagConfig.mjs              0.16 kB │ gzip: 0.11 kB
+@n8n/stores:build: ℹ [ESM] dist/constants.mjs                  0.07 kB │ gzip: 0.08 kB
+@n8n/stores:build: ℹ [ESM] dist/index.mjs                      0.07 kB │ gzip: 0.08 kB
+@n8n/stores:build: ℹ [ESM] dist/useRootStore.mjs.map          10.02 kB │ gzip: 2.17 kB
+@n8n/stores:build: ℹ [ESM] dist/useAgentRequestStore.mjs.map   3.73 kB │ gzip: 1.16 kB
+@n8n/stores:build: ℹ [ESM] dist/constants2.mjs.map             2.10 kB │ gzip: 0.97 kB
+@n8n/stores:build: ℹ [ESM] dist/metaTagConfig2.mjs.map         1.85 kB │ gzip: 0.76 kB
+@n8n/stores:build: ℹ [ESM] dist/constants2.mjs                 1.47 kB │ gzip: 0.76 kB
+@n8n/stores:build: ℹ [ESM] dist/metaTagConfig2.mjs             1.12 kB │ gzip: 0.46 kB
+@n8n/stores:build: ℹ [ESM] dist/useRootStore.d.mts             7.48 kB │ gzip: 0.93 kB
+@n8n/stores:build: ℹ [ESM] dist/useAgentRequestStore.d.mts     2.51 kB │ gzip: 0.50 kB
+@n8n/stores:build: ℹ [ESM] dist/metaTagConfig.d.mts            0.31 kB │ gzip: 0.17 kB
+@n8n/stores:build: ℹ [ESM] dist/constants.d.mts                0.07 kB │ gzip: 0.07 kB
+@n8n/stores:build: ℹ [ESM] dist/index.d.mts                    0.07 kB │ gzip: 0.07 kB
+@n8n/stores:build: ℹ [ESM] dist/constants2.d.mts               1.93 kB │ gzip: 0.78 kB
+@n8n/stores:build: ℹ [ESM] 17 files, total: 40.22 kB
+@n8n/stores:build: ℹ [CJS] dist/useRootStore.d.cts          7.48 kB │ gzip: 0.93 kB
+@n8n/stores:build: ℹ [CJS] dist/useAgentRequestStore.d.cts  2.51 kB │ gzip: 0.50 kB
+@n8n/stores:build: ℹ [CJS] dist/metaTagConfig.d.cts         0.31 kB │ gzip: 0.17 kB
+@n8n/stores:build: ℹ [CJS] dist/constants.d.cts             0.07 kB │ gzip: 0.07 kB
+@n8n/stores:build: ℹ [CJS] dist/index.d.cts                 0.07 kB │ gzip: 0.07 kB
+@n8n/stores:build: ℹ [CJS] dist/constants2.d.cts            1.93 kB │ gzip: 0.78 kB
+@n8n/stores:build: ℹ [CJS] 6 files, total: 12.36 kB
+@n8n/stores:build: ✔ Build complete in 4241ms
+@n8n/i18n:build: cache hit, replaying logs 74e2f160a248a239
+@n8n/i18n:build: 
+@n8n/i18n:build: > @n8n/i18n@2.1.0 build /Users/richard/Desktop/projects/n8n/packages/frontend/@n8n/i18n
+@n8n/i18n:build: > tsdown
+@n8n/i18n:build: 
+@n8n/i18n:build: ℹ tsdown v0.16.5 powered by rolldown v1.0.0-beta.50
+@n8n/i18n:build: ℹ Using tsdown config: /Users/richard/Desktop/projects/n8n/packages/frontend/@n8n/i18n/tsdown.config.ts
+@n8n/i18n:build: ℹ entry: src/index.ts, src/types.ts, src/utils.ts
+@n8n/i18n:build: ℹ tsconfig: tsconfig.json
+@n8n/i18n:build: ℹ Build start
+@n8n/i18n:build: ℹ Cleaning 20 files
+@n8n/i18n:build: ℹ [CJS] dist/index.cjs       343.52 kB │ gzip: 77.80 kB
+@n8n/i18n:build: ℹ [CJS] dist/utils.cjs         0.29 kB │ gzip:  0.15 kB
+@n8n/i18n:build: ℹ [CJS] dist/types.cjs         0.00 kB │ gzip:  0.02 kB
+@n8n/i18n:build: ℹ [CJS] dist/index.cjs.map   435.15 kB │ gzip: 88.17 kB
+@n8n/i18n:build: ℹ [CJS] dist/utils2.cjs.map    3.42 kB │ gzip:  1.35 kB
+@n8n/i18n:build: ℹ [CJS] dist/utils2.cjs        2.69 kB │ gzip:  1.02 kB
+@n8n/i18n:build: ℹ [CJS] 6 files, total: 785.09 kB
+@n8n/i18n:build: ℹ [ESM] dist/index.mjs       343.13 kB │ gzip: 77.79 kB
+@n8n/i18n:build: ℹ [ESM] dist/utils.mjs         0.22 kB │ gzip:  0.15 kB
+@n8n/i18n:build: ℹ [ESM] dist/types.mjs         0.01 kB │ gzip:  0.03 kB
+@n8n/i18n:build: ℹ [ESM] dist/index.mjs.map   435.06 kB │ gzip: 88.12 kB
+@n8n/i18n:build: ℹ [ESM] dist/utils2.mjs.map    3.42 kB │ gzip:  1.35 kB
+@n8n/i18n:build: ℹ [ESM] dist/utils2.mjs        2.27 kB │ gzip:  0.96 kB
+@n8n/i18n:build: ℹ [ESM] dist/index.d.mts     222.38 kB │ gzip: 30.03 kB
+@n8n/i18n:build: ℹ [ESM] dist/utils.d.mts       0.46 kB │ gzip:  0.25 kB
+@n8n/i18n:build: ℹ [ESM] dist/types.d.mts       0.20 kB │ gzip:  0.14 kB
+@n8n/i18n:build: ℹ [ESM] dist/types2.d.mts    210.66 kB │ gzip: 28.99 kB
+@n8n/i18n:build: ℹ [ESM] 10 files, total: 1217.81 kB
+@n8n/i18n:build: ℹ [CJS] dist/index.d.cts   222.38 kB │ gzip: 30.03 kB
+@n8n/i18n:build: ℹ [CJS] dist/utils.d.cts     0.46 kB │ gzip:  0.25 kB
+@n8n/i18n:build: ℹ [CJS] dist/types.d.cts     0.20 kB │ gzip:  0.14 kB
+@n8n/i18n:build: ℹ [CJS] dist/types2.d.cts  210.66 kB │ gzip: 28.98 kB
+@n8n/i18n:build: ℹ [CJS] 4 files, total: 433.71 kB
+@n8n/i18n:build: ✔ Build complete in 6256ms
+@n8n/decorators:build: cache hit, replaying logs 1afd717d79f1540c
+@n8n/decorators:build: 
+@n8n/decorators:build: > @n8n/decorators@1.1.0 build /Users/richard/Desktop/projects/n8n/packages/@n8n/decorators
+@n8n/decorators:build: > tsc -p tsconfig.build.json
+@n8n/decorators:build: 
+@n8n/backend-common:build: cache hit, replaying logs 0fdf2e2b259be7d5
+@n8n/backend-common:build: 
+@n8n/backend-common:build: > @n8n/backend-common@1.1.0 build /Users/richard/Desktop/projects/n8n/packages/@n8n/backend-common
+@n8n/backend-common:build: > tsc -p tsconfig.build.json
+@n8n/backend-common:build: 
+@n8n/api-types:build: cache hit, replaying logs fb84508a24c084b7
+@n8n/api-types:build: 
+@n8n/api-types:build: > @n8n/api-types@1.1.0 build /Users/richard/Desktop/projects/n8n/packages/@n8n/api-types
+@n8n/api-types:build: > tsc -p tsconfig.build.json
+@n8n/api-types:build: 
+n8n-core:build: cache hit, replaying logs 9a9e9d358fc7521d
+n8n-core:build: 
+n8n-core:build: > n8n-core@2.1.0 build /Users/richard/Desktop/projects/n8n/packages/core
+n8n-core:build: > tsc -p tsconfig.build.json && tsc-alias -p tsconfig.build.json
+n8n-core:build: 
+n8n-nodes-base:build: cache miss, executing 4a5a286bc260f391
+n8n-node-dev:build: cache hit, replaying logs 42cfd08530e9d956
+n8n-node-dev:build: 
+n8n-node-dev:build: > n8n-node-dev@2.1.0 build /Users/richard/Desktop/projects/n8n/packages/node-dev
+n8n-node-dev:build: > tsc --noEmit
+n8n-node-dev:build: 
+@n8n/rest-api-client:build: cache hit, replaying logs c8be7d9e22afbcf4
+@n8n/rest-api-client:build: 
+@n8n/rest-api-client:build: > @n8n/rest-api-client@2.1.0 build /Users/richard/Desktop/projects/n8n/packages/frontend/@n8n/rest-api-client
+@n8n/rest-api-client:build: > tsdown
+@n8n/rest-api-client:build: 
+@n8n/rest-api-client:build: ℹ tsdown v0.16.5 powered by rolldown v1.0.0-beta.50
+@n8n/rest-api-client:build: ℹ Using tsdown config: /Users/richard/Desktop/projects/n8n/packages/frontend/@n8n/rest-api-client/tsdown.config.ts
+@n8n/rest-api-client:build: ℹ entry: src/index.ts, src/types.ts, src/utils.ts, src/api/api-keys.ts, src/api/breaking-changes.ts, src/api/cloudPlans.ts, src/api/communityNodes.ts, src/api/consent.ts, src/api/credentialResolvers.ts, src/api/ctas.ts, src/api/dynamic-banners.ts, src/api/eventbus.ee.ts, src/api/events.ts, src/api/execution.ts, src/api/externalSecrets.ee.ts, src/api/index.ts, src/api/ldap.ts, src/api/mfa.ts, src/api/module-settings.ts, src/api/nodeTypes.ts, src/api/npsSurvey.ts, src/api/orchestration.ts, src/api/prompts.ts, src/api/provisioning.ts, src/api/roles.ts, src/api/settings.ts, src/api/sso.ts, src/api/tags.ts, src/api/templates.ts, src/api/third-party-licenses.ts, src/api/ui.ts, src/api/usage.ts, src/api/users.ts, src/api/versions.ts, src/api/webhooks.ts, src/api/workflowHistory.ts, src/api/workflows.ts
+@n8n/rest-api-client:build: ℹ tsconfig: tsconfig.json
+@n8n/rest-api-client:build: ℹ Build start
+@n8n/rest-api-client:build: ℹ Cleaning 333 files
+@n8n/rest-api-client:build: ℹ [CJS] dist/index.cjs                      9.84 kB │ gzip: 1.87 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/api/index.cjs                  9.28 kB │ gzip: 1.74 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/api/users.cjs                  1.19 kB │ gzip: 0.32 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/api/nodeTypes.cjs              0.86 kB │ gzip: 0.25 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/api/breaking-changes.cjs       0.78 kB │ gzip: 0.33 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/api/externalSecrets.ee.cjs     0.68 kB │ gzip: 0.18 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/api/credentialResolvers.cjs    0.63 kB │ gzip: 0.16 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/utils.cjs                      0.61 kB │ gzip: 0.22 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/api/eventbus.ee.cjs            0.56 kB │ gzip: 0.19 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/api/sso.cjs                    0.53 kB │ gzip: 0.18 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/api/templates.cjs              0.51 kB │ gzip: 0.18 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/api/consent.cjs                0.50 kB │ gzip: 0.26 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/api/communityNodes.cjs         0.48 kB │ gzip: 0.17 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/api/cloudPlans.cjs             0.48 kB │ gzip: 0.18 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/api/usage.cjs                  0.37 kB │ gzip: 0.17 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/api/ldap.cjs                   0.36 kB │ gzip: 0.16 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/api/mfa.cjs                    0.35 kB │ gzip: 0.17 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/api/roles.cjs                  0.35 kB │ gzip: 0.15 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/api/api-keys.cjs               0.35 kB │ gzip: 0.15 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/api/dynamic-banners.cjs        0.30 kB │ gzip: 0.20 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/api/provisioning.cjs           0.24 kB │ gzip: 0.12 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/api/workflowHistory.cjs        0.24 kB │ gzip: 0.12 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/api/versions.cjs               0.20 kB │ gzip: 0.12 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/api/prompts.cjs                0.20 kB │ gzip: 0.12 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/api/third-party-licenses.cjs   0.19 kB │ gzip: 0.12 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/api/module-settings.cjs        0.16 kB │ gzip: 0.11 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/api/orchestration.cjs          0.16 kB │ gzip: 0.11 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/api/npsSurvey.cjs              0.15 kB │ gzip: 0.10 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/api/ui.cjs                     0.14 kB │ gzip: 0.11 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/api/ctas.cjs                   0.14 kB │ gzip: 0.10 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/api/events.cjs                 0.13 kB │ gzip: 0.10 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/api/settings.cjs               0.13 kB │ gzip: 0.09 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/api/webhooks.cjs               0.13 kB │ gzip: 0.10 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/api/execution.cjs              0.00 kB │ gzip: 0.02 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/api/tags.cjs                   0.00 kB │ gzip: 0.02 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/api/workflows.cjs              0.00 kB │ gzip: 0.02 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/types.cjs                      0.00 kB │ gzip: 0.02 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/utils2.cjs.map                13.07 kB │ gzip: 4.24 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/utils2.cjs                     8.86 kB │ gzip: 2.85 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/users.cjs.map                  8.64 kB │ gzip: 1.84 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/templates.cjs.map              6.30 kB │ gzip: 1.70 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/users.cjs                      5.39 kB │ gzip: 0.86 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/nodeTypes.cjs.map              4.67 kB │ gzip: 1.32 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/nodeTypes.cjs                  3.77 kB │ gzip: 0.84 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/sso.cjs.map                    2.84 kB │ gzip: 0.77 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/cloudPlans.cjs.map             2.79 kB │ gzip: 1.01 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/externalSecrets.ee.cjs.map     2.64 kB │ gzip: 0.70 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/ldap.cjs.map                   2.63 kB │ gzip: 0.90 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/sso.cjs                        2.52 kB │ gzip: 0.49 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/templates.cjs                  2.50 kB │ gzip: 0.59 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/eventbus.ee.cjs.map            2.33 kB │ gzip: 0.79 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/externalSecrets.ee.cjs         2.31 kB │ gzip: 0.45 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/credentialResolvers.cjs.map    2.25 kB │ gzip: 0.59 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/communityNodes.cjs.map         2.11 kB │ gzip: 0.82 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/versions.cjs.map               2.05 kB │ gzip: 0.78 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/credentialResolvers.cjs        2.00 kB │ gzip: 0.41 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/workflowHistory.cjs.map        1.97 kB │ gzip: 0.71 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/eventbus.ee.cjs                1.94 kB │ gzip: 0.50 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/mfa.cjs.map                    1.88 kB │ gzip: 0.61 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/usage.cjs.map                  1.80 kB │ gzip: 0.64 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/communityNodes.cjs             1.76 kB │ gzip: 0.57 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/roles.cjs.map                  1.76 kB │ gzip: 0.60 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/api-keys.cjs.map               1.75 kB │ gzip: 0.58 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/cloudPlans.cjs                 1.69 kB │ gzip: 0.43 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/mfa.cjs                        1.63 kB │ gzip: 0.41 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/api/breaking-changes.cjs.map   1.56 kB │ gzip: 0.62 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/usage.cjs                      1.52 kB │ gzip: 0.42 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/roles.cjs                      1.49 kB │ gzip: 0.41 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/ldap.cjs                       1.47 kB │ gzip: 0.40 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/api-keys.cjs                   1.41 kB │ gzip: 0.39 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/prompts.cjs.map                1.16 kB │ gzip: 0.53 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/provisioning.cjs.map           1.08 kB │ gzip: 0.46 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/api/consent.cjs.map            0.96 kB │ gzip: 0.45 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/api/dynamic-banners.cjs.map    0.94 kB │ gzip: 0.51 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/versions.cjs                   0.88 kB │ gzip: 0.37 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/prompts.cjs                    0.85 kB │ gzip: 0.37 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/workflowHistory.cjs            0.83 kB │ gzip: 0.34 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/provisioning.cjs               0.73 kB │ gzip: 0.32 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/webhooks.cjs.map               0.73 kB │ gzip: 0.42 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/ui.cjs.map                     0.66 kB │ gzip: 0.40 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/module-settings.cjs.map        0.56 kB │ gzip: 0.32 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/orchestration.cjs.map          0.56 kB │ gzip: 0.35 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/third-party-licenses.cjs.map   0.55 kB │ gzip: 0.35 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/npsSurvey.cjs.map              0.55 kB │ gzip: 0.33 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/settings.cjs.map               0.52 kB │ gzip: 0.31 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/third-party-licenses.cjs       0.47 kB │ gzip: 0.29 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/orchestration.cjs              0.47 kB │ gzip: 0.30 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/events.cjs.map                 0.46 kB │ gzip: 0.30 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/ctas.cjs.map                   0.45 kB │ gzip: 0.31 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/ui.cjs                         0.44 kB │ gzip: 0.29 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/npsSurvey.cjs                  0.42 kB │ gzip: 0.28 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/module-settings.cjs            0.41 kB │ gzip: 0.27 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/webhooks.cjs                   0.39 kB │ gzip: 0.27 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/events.cjs                     0.39 kB │ gzip: 0.27 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/ctas.cjs                       0.38 kB │ gzip: 0.26 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/settings.cjs                   0.37 kB │ gzip: 0.26 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/api.cjs                        0.00 kB │ gzip: 0.02 kB
+@n8n/rest-api-client:build: ℹ [CJS] 97 files, total: 150.72 kB
+@n8n/rest-api-client:build: [33m[EMPTY_IMPORT_META] Warning:[0m `import.meta` may not be a valid syntax with the `cjs` output format.
+@n8n/rest-api-client:build:      [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/utils.ts:112:3 [38;5;246m][0m
+@n8n/rest-api-client:build:      [38;5;246m│[0m
+@n8n/rest-api-client:build:  [38;5;246m112 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0mimport.meta[38;5;249m.[0m[38;5;249me[0m[38;5;249mn[0m[38;5;249mv[0m[38;5;249m.[0m[38;5;249mN[0m[38;5;249mO[0m[38;5;249mD[0m[38;5;249mE[0m[38;5;249m_[0m[38;5;249mE[0m[38;5;249mN[0m[38;5;249mV[0m[38;5;249m [0m[38;5;249m![0m[38;5;249m=[0m[38;5;249m=[0m[38;5;249m [0m[38;5;249m'[0m[38;5;249mp[0m[38;5;249mr[0m[38;5;249mo[0m[38;5;249md[0m[38;5;249mu[0m[38;5;249mc[0m[38;5;249mt[0m[38;5;249mi[0m[38;5;249mo[0m[38;5;249mn[0m[38;5;249m'[0m[38;5;249m [0m[38;5;249m&[0m[38;5;249m&[0m
+@n8n/rest-api-client:build:  [38;5;240m    │[0m        ─────┬─────  
+@n8n/rest-api-client:build:  [38;5;240m    │[0m             ╰─────── This `import.meta` will be replaced with an empty object (`{}`) automatically. If this is desired, you can suppress this warning by adding `transform.define: { 'import.meta': {} }`. If `import.meta` needs to be kept as-is, you need to set the output format to `esm`.
+@n8n/rest-api-client:build: [38;5;246m─────╯[0m
+@n8n/rest-api-client:build: 
+@n8n/rest-api-client:build: ℹ [ESM] dist/index.mjs                        6.54 kB │ gzip: 1.76 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/api/index.mjs                    6.20 kB │ gzip: 1.63 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/api/users.mjs                    0.84 kB │ gzip: 0.33 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/api/breaking-changes.mjs         0.69 kB │ gzip: 0.32 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/api/nodeTypes.mjs                0.63 kB │ gzip: 0.24 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/api/externalSecrets.ee.mjs       0.44 kB │ gzip: 0.18 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/api/consent.mjs                  0.44 kB │ gzip: 0.24 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/api/credentialResolvers.mjs      0.42 kB │ gzip: 0.16 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/utils.mjs                        0.41 kB │ gzip: 0.23 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/api/eventbus.ee.mjs              0.40 kB │ gzip: 0.19 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/api/sso.mjs                      0.38 kB │ gzip: 0.18 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/api/templates.mjs                0.35 kB │ gzip: 0.17 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/api/communityNodes.mjs           0.33 kB │ gzip: 0.17 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/api/cloudPlans.mjs               0.33 kB │ gzip: 0.18 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/api/usage.mjs                    0.28 kB │ gzip: 0.16 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/api/ldap.mjs                     0.27 kB │ gzip: 0.16 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/api/dynamic-banners.mjs          0.27 kB │ gzip: 0.19 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/api/roles.mjs                    0.26 kB │ gzip: 0.15 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/api/mfa.mjs                      0.25 kB │ gzip: 0.16 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/api/api-keys.mjs                 0.24 kB │ gzip: 0.14 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/api/provisioning.mjs             0.18 kB │ gzip: 0.11 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/api/workflowHistory.mjs          0.17 kB │ gzip: 0.11 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/api/versions.mjs                 0.15 kB │ gzip: 0.12 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/api/prompts.mjs                  0.15 kB │ gzip: 0.12 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/api/third-party-licenses.mjs     0.13 kB │ gzip: 0.10 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/api/orchestration.mjs            0.12 kB │ gzip: 0.10 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/api/ui.mjs                       0.12 kB │ gzip: 0.10 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/api/module-settings.mjs          0.12 kB │ gzip: 0.10 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/api/npsSurvey.mjs                0.12 kB │ gzip: 0.10 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/api/ctas.mjs                     0.11 kB │ gzip: 0.10 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/api/events.mjs                   0.10 kB │ gzip: 0.09 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/api/settings.mjs                 0.10 kB │ gzip: 0.09 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/api/webhooks.mjs                 0.10 kB │ gzip: 0.09 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/api/execution.mjs                0.01 kB │ gzip: 0.03 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/api/tags.mjs                     0.01 kB │ gzip: 0.03 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/api/workflows.mjs                0.01 kB │ gzip: 0.03 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/types.mjs                        0.01 kB │ gzip: 0.03 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/utils2.mjs.map                  13.01 kB │ gzip: 4.23 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/users.mjs.map                    8.60 kB │ gzip: 1.83 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/utils2.mjs                       6.52 kB │ gzip: 2.34 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/templates.mjs.map                6.28 kB │ gzip: 1.70 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/nodeTypes.mjs.map                4.64 kB │ gzip: 1.31 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/users.mjs                        3.10 kB │ gzip: 0.74 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/sso.mjs.map                      2.81 kB │ gzip: 0.76 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/cloudPlans.mjs.map               2.77 kB │ gzip: 1.00 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/externalSecrets.ee.mjs.map       2.61 kB │ gzip: 0.70 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/ldap.mjs.map                     2.61 kB │ gzip: 0.89 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/nodeTypes.mjs                    2.44 kB │ gzip: 0.73 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/eventbus.ee.mjs.map              2.31 kB │ gzip: 0.79 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/credentialResolvers.mjs.map      2.22 kB │ gzip: 0.58 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/communityNodes.mjs.map           2.04 kB │ gzip: 0.80 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/versions.mjs.map                 1.99 kB │ gzip: 0.76 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/workflowHistory.mjs.map          1.96 kB │ gzip: 0.71 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/mfa.mjs.map                      1.85 kB │ gzip: 0.61 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/usage.mjs.map                    1.77 kB │ gzip: 0.63 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/roles.mjs.map                    1.73 kB │ gzip: 0.60 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/api-keys.mjs.map                 1.73 kB │ gzip: 0.58 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/templates.mjs                    1.66 kB │ gzip: 0.51 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/api/breaking-changes.mjs.map     1.53 kB │ gzip: 0.60 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/sso.mjs                          1.46 kB │ gzip: 0.39 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/externalSecrets.ee.mjs           1.44 kB │ gzip: 0.37 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/credentialResolvers.mjs          1.25 kB │ gzip: 0.34 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/eventbus.ee.mjs                  1.20 kB │ gzip: 0.42 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/communityNodes.mjs               1.17 kB │ gzip: 0.50 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/prompts.mjs.map                  1.13 kB │ gzip: 0.51 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/provisioning.mjs.map             1.05 kB │ gzip: 0.46 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/cloudPlans.mjs                   0.97 kB │ gzip: 0.36 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/mfa.mjs                          0.95 kB │ gzip: 0.33 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/api/consent.mjs.map              0.94 kB │ gzip: 0.45 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/api/dynamic-banners.mjs.map      0.94 kB │ gzip: 0.50 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/usage.mjs                        0.92 kB │ gzip: 0.34 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/roles.mjs                        0.90 kB │ gzip: 0.34 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/ldap.mjs                         0.88 kB │ gzip: 0.33 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/api-keys.mjs                     0.83 kB │ gzip: 0.31 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/webhooks.mjs.map                 0.71 kB │ gzip: 0.41 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/ui.mjs.map                       0.64 kB │ gzip: 0.40 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/versions.mjs                     0.62 kB │ gzip: 0.30 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/prompts.mjs                      0.59 kB │ gzip: 0.30 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/workflowHistory.mjs              0.59 kB │ gzip: 0.28 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/third-party-licenses.mjs.map     0.54 kB │ gzip: 0.35 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/module-settings.mjs.map          0.54 kB │ gzip: 0.32 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/orchestration.mjs.map            0.54 kB │ gzip: 0.35 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/npsSurvey.mjs.map                0.53 kB │ gzip: 0.33 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/settings.mjs.map                 0.50 kB │ gzip: 0.31 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/provisioning.mjs                 0.50 kB │ gzip: 0.25 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/ctas.mjs.map                     0.45 kB │ gzip: 0.31 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/events.mjs.map                   0.44 kB │ gzip: 0.30 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/orchestration.mjs                0.36 kB │ gzip: 0.24 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/third-party-licenses.mjs         0.35 kB │ gzip: 0.24 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/ui.mjs                           0.33 kB │ gzip: 0.23 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/npsSurvey.mjs                    0.32 kB │ gzip: 0.22 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/module-settings.mjs              0.30 kB │ gzip: 0.20 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/webhooks.mjs                     0.29 kB │ gzip: 0.21 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/events.mjs                       0.29 kB │ gzip: 0.21 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/settings.mjs                     0.27 kB │ gzip: 0.20 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/ctas.mjs                         0.26 kB │ gzip: 0.20 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/api.mjs                          0.01 kB │ gzip: 0.03 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/index.d.mts                      9.02 kB │ gzip: 2.30 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/api/index.d.mts                  8.60 kB │ gzip: 2.15 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/api/users.d.mts                  1.35 kB │ gzip: 0.43 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/api/templates.d.mts              1.12 kB │ gzip: 0.33 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/api/breaking-changes.d.mts       0.77 kB │ gzip: 0.32 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/api/dynamic-banners.d.mts        0.75 kB │ gzip: 0.40 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/api/nodeTypes.d.mts              0.63 kB │ gzip: 0.24 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/api/consent.d.mts                0.57 kB │ gzip: 0.28 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/api/eventbus.ee.d.mts            0.48 kB │ gzip: 0.21 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/api/workflowHistory.d.mts        0.47 kB │ gzip: 0.18 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/api/sso.d.mts                    0.45 kB │ gzip: 0.20 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/api/externalSecrets.ee.d.mts     0.44 kB │ gzip: 0.18 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/utils.d.mts                      0.43 kB │ gzip: 0.23 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/api/cloudPlans.d.mts             0.43 kB │ gzip: 0.22 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/api/credentialResolvers.d.mts    0.41 kB │ gzip: 0.15 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/api/ldap.d.mts                   0.37 kB │ gzip: 0.18 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/api/communityNodes.d.mts         0.33 kB │ gzip: 0.17 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/api/mfa.d.mts                    0.29 kB │ gzip: 0.17 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/api/usage.d.mts                  0.28 kB │ gzip: 0.16 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/api/versions.d.mts               0.26 kB │ gzip: 0.14 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/api/roles.d.mts                  0.25 kB │ gzip: 0.14 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/api/api-keys.d.mts               0.23 kB │ gzip: 0.14 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/api/workflows.d.mts              0.23 kB │ gzip: 0.13 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/api/provisioning.d.mts           0.22 kB │ gzip: 0.12 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/api/prompts.d.mts                0.20 kB │ gzip: 0.13 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/api/third-party-licenses.d.mts   0.13 kB │ gzip: 0.10 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/api/orchestration.d.mts          0.12 kB │ gzip: 0.10 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/api/ui.d.mts                     0.12 kB │ gzip: 0.10 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/api/module-settings.d.mts        0.12 kB │ gzip: 0.10 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/api/npsSurvey.d.mts              0.12 kB │ gzip: 0.10 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/api/ctas.d.mts                   0.11 kB │ gzip: 0.10 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/api/events.d.mts                 0.10 kB │ gzip: 0.09 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/api/settings.d.mts               0.10 kB │ gzip: 0.09 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/api/webhooks.d.mts               0.10 kB │ gzip: 0.09 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/types.d.mts                      0.08 kB │ gzip: 0.08 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/api/tags.d.mts                   0.06 kB │ gzip: 0.07 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/api/execution.d.mts              0.01 kB │ gzip: 0.03 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/users.d.mts                      5.50 kB │ gzip: 1.25 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/templates.d.mts                  4.26 kB │ gzip: 1.08 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/utils2.d.mts                     2.20 kB │ gzip: 0.79 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/nodeTypes.d.mts                  2.05 kB │ gzip: 0.58 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/cloudPlans.d.mts                 1.94 kB │ gzip: 0.76 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/ldap.d.mts                       1.75 kB │ gzip: 0.62 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/workflowHistory.d.mts            1.46 kB │ gzip: 0.54 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/sso.d.mts                        1.38 kB │ gzip: 0.45 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/versions.d.mts                   1.31 kB │ gzip: 0.51 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/eventbus.ee.d.mts                1.29 kB │ gzip: 0.42 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/externalSecrets.ee.d.mts         1.29 kB │ gzip: 0.39 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/workflows.d.mts                  1.25 kB │ gzip: 0.47 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/credentialResolvers.d.mts        1.23 kB │ gzip: 0.35 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/mfa.d.mts                        0.94 kB │ gzip: 0.37 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/api-keys.d.mts                   0.92 kB │ gzip: 0.36 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/communityNodes.d.mts             0.91 kB │ gzip: 0.36 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/usage.d.mts                      0.91 kB │ gzip: 0.36 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/roles.d.mts                      0.87 kB │ gzip: 0.34 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/provisioning.d.mts               0.68 kB │ gzip: 0.30 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/prompts.d.mts                    0.53 kB │ gzip: 0.27 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/webhooks.d.mts                   0.47 kB │ gzip: 0.28 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/ui.d.mts                         0.36 kB │ gzip: 0.25 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/module-settings.d.mts            0.34 kB │ gzip: 0.22 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/npsSurvey.d.mts                  0.33 kB │ gzip: 0.22 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/settings.d.mts                   0.30 kB │ gzip: 0.21 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/third-party-licenses.d.mts       0.28 kB │ gzip: 0.20 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/orchestration.d.mts              0.27 kB │ gzip: 0.20 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/ctas.d.mts                       0.25 kB │ gzip: 0.19 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/events.d.mts                     0.24 kB │ gzip: 0.18 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/tags.d.mts                       0.21 kB │ gzip: 0.16 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/types2.d.mts                     0.18 kB │ gzip: 0.15 kB
+@n8n/rest-api-client:build: ℹ [ESM] dist/index2.d.mts                     0.01 kB │ gzip: 0.03 kB
+@n8n/rest-api-client:build: ℹ [ESM] 166 files, total: 189.49 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/index.d.cts                     9.02 kB │ gzip: 2.30 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/api/index.d.cts                 8.60 kB │ gzip: 2.15 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/api/users.d.cts                 1.35 kB │ gzip: 0.43 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/api/templates.d.cts             1.12 kB │ gzip: 0.33 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/api/breaking-changes.d.cts      0.77 kB │ gzip: 0.32 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/api/dynamic-banners.d.cts       0.75 kB │ gzip: 0.40 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/api/nodeTypes.d.cts             0.63 kB │ gzip: 0.24 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/api/consent.d.cts               0.57 kB │ gzip: 0.28 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/api/eventbus.ee.d.cts           0.48 kB │ gzip: 0.21 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/api/workflowHistory.d.cts       0.47 kB │ gzip: 0.18 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/api/sso.d.cts                   0.45 kB │ gzip: 0.20 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/api/externalSecrets.ee.d.cts    0.44 kB │ gzip: 0.18 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/utils.d.cts                     0.43 kB │ gzip: 0.23 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/api/cloudPlans.d.cts            0.43 kB │ gzip: 0.22 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/api/credentialResolvers.d.cts   0.41 kB │ gzip: 0.15 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/api/ldap.d.cts                  0.37 kB │ gzip: 0.18 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/api/communityNodes.d.cts        0.33 kB │ gzip: 0.17 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/api/mfa.d.cts                   0.29 kB │ gzip: 0.17 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/api/usage.d.cts                 0.28 kB │ gzip: 0.16 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/api/versions.d.cts              0.26 kB │ gzip: 0.14 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/api/roles.d.cts                 0.25 kB │ gzip: 0.14 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/api/api-keys.d.cts              0.23 kB │ gzip: 0.14 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/api/workflows.d.cts             0.23 kB │ gzip: 0.13 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/api/provisioning.d.cts          0.22 kB │ gzip: 0.12 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/api/prompts.d.cts               0.20 kB │ gzip: 0.13 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/api/third-party-licenses.d.cts  0.13 kB │ gzip: 0.10 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/api/orchestration.d.cts         0.12 kB │ gzip: 0.10 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/api/ui.d.cts                    0.12 kB │ gzip: 0.10 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/api/module-settings.d.cts       0.12 kB │ gzip: 0.10 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/api/npsSurvey.d.cts             0.12 kB │ gzip: 0.10 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/api/ctas.d.cts                  0.11 kB │ gzip: 0.10 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/api/events.d.cts                0.10 kB │ gzip: 0.09 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/api/settings.d.cts              0.10 kB │ gzip: 0.09 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/api/webhooks.d.cts              0.10 kB │ gzip: 0.09 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/types.d.cts                     0.08 kB │ gzip: 0.08 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/api/tags.d.cts                  0.06 kB │ gzip: 0.07 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/api/execution.d.cts             0.01 kB │ gzip: 0.03 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/users.d.cts                     5.50 kB │ gzip: 1.25 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/templates.d.cts                 4.26 kB │ gzip: 1.08 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/utils2.d.cts                    2.20 kB │ gzip: 0.79 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/nodeTypes.d.cts                 2.05 kB │ gzip: 0.58 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/cloudPlans.d.cts                1.94 kB │ gzip: 0.76 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/ldap.d.cts                      1.75 kB │ gzip: 0.62 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/workflowHistory.d.cts           1.46 kB │ gzip: 0.54 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/sso.d.cts                       1.38 kB │ gzip: 0.45 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/versions.d.cts                  1.31 kB │ gzip: 0.51 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/eventbus.ee.d.cts               1.29 kB │ gzip: 0.42 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/externalSecrets.ee.d.cts        1.29 kB │ gzip: 0.39 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/workflows.d.cts                 1.25 kB │ gzip: 0.47 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/credentialResolvers.d.cts       1.23 kB │ gzip: 0.35 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/mfa.d.cts                       0.94 kB │ gzip: 0.37 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/api-keys.d.cts                  0.92 kB │ gzip: 0.36 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/communityNodes.d.cts            0.91 kB │ gzip: 0.36 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/usage.d.cts                     0.91 kB │ gzip: 0.36 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/roles.d.cts                     0.87 kB │ gzip: 0.34 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/provisioning.d.cts              0.68 kB │ gzip: 0.30 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/prompts.d.cts                   0.53 kB │ gzip: 0.27 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/webhooks.d.cts                  0.47 kB │ gzip: 0.28 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/ui.d.cts                        0.36 kB │ gzip: 0.25 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/module-settings.d.cts           0.34 kB │ gzip: 0.22 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/npsSurvey.d.cts                 0.33 kB │ gzip: 0.22 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/settings.d.cts                  0.30 kB │ gzip: 0.20 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/third-party-licenses.d.cts      0.28 kB │ gzip: 0.20 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/orchestration.d.cts             0.27 kB │ gzip: 0.20 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/ctas.d.cts                      0.25 kB │ gzip: 0.19 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/events.d.cts                    0.24 kB │ gzip: 0.18 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/tags.d.cts                      0.21 kB │ gzip: 0.16 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/types2.d.cts                    0.18 kB │ gzip: 0.15 kB
+@n8n/rest-api-client:build: ℹ [CJS] dist/index2.d.cts                    0.01 kB │ gzip: 0.03 kB
+@n8n/rest-api-client:build: ℹ [CJS] 69 files, total: 65.66 kB
+@n8n/rest-api-client:build: ✔ Build complete in 2841ms
+@n8n/task-runner:build: cache hit, replaying logs e704071c1f9476c6
+@n8n/task-runner:build: 
+@n8n/task-runner:build: > @n8n/task-runner@2.1.0 build /Users/richard/Desktop/projects/n8n/packages/@n8n/task-runner
+@n8n/task-runner:build: > tsc -p ./tsconfig.build.json && tsc-alias -p tsconfig.build.json
+@n8n/task-runner:build: 
+@n8n/ai-workflow-builder:build: cache hit, replaying logs 8ced6d9cdf3eaf66
+@n8n/ai-workflow-builder:build: 
+@n8n/ai-workflow-builder:build: > @n8n/ai-workflow-builder@1.1.0 build /Users/richard/Desktop/projects/n8n/packages/@n8n/ai-workflow-builder.ee
+@n8n/ai-workflow-builder:build: > tsc -p ./tsconfig.build.json && tsc-alias -p tsconfig.build.json
+@n8n/ai-workflow-builder:build: 
+n8n-nodes-base:build: 
+n8n-nodes-base:build: > n8n-nodes-base@2.1.0 build /Users/richard/Desktop/projects/n8n/packages/nodes-base
+n8n-nodes-base:build: > tsc --build tsconfig.build.cjs.json && pnpm copy-nodes-json && tsc-alias -p tsconfig.build.cjs.json && pnpm n8n-copy-static-files && pnpm n8n-generate-translations && pnpm n8n-generate-metadata
+n8n-nodes-base:build: 
+@n8n/db:build: cache hit, replaying logs fe3d46e13fec699c
+@n8n/db:build: 
+@n8n/db:build: > @n8n/db@1.1.0 build /Users/richard/Desktop/projects/n8n/packages/@n8n/db
+@n8n/db:build: > tsc -p tsconfig.build.json
+@n8n/db:build: 
+@n8n/backend-test-utils:build: cache hit, replaying logs 9d468b3d3cbd5319
+@n8n/backend-test-utils:build: 
+@n8n/backend-test-utils:build: > @n8n/backend-test-utils@1.1.0 build /Users/richard/Desktop/projects/n8n/packages/@n8n/backend-test-utils
+@n8n/backend-test-utils:build: > tsc -p tsconfig.build.json
+@n8n/backend-test-utils:build: 
+n8n-editor-ui:build: cache hit, replaying logs 9983a94d97f3ddd4
+n8n-editor-ui:build: 
+n8n-editor-ui:build: > n8n-editor-ui@2.1.0 build /Users/richard/Desktop/projects/n8n/packages/frontend/editor-ui
+n8n-editor-ui:build: > cross-env VUE_APP_PUBLIC_PATH="/{{BASE_PATH}}/" NODE_OPTIONS="--max-old-space-size=8192" vite build
+n8n-editor-ui:build: 
+n8n-editor-ui:build: You or a plugin you are using have set `optimizeDeps.esbuildOptions` but this option is now deprecated. Vite now uses Rolldown to optimize the dependencies. Please use `optimizeDeps.rollupOptions` instead.
+n8n-editor-ui:build: rolldown-vite v7.1.16 building for production...
+n8n-editor-ui:build: <script src="/{{BASE_PATH}}/static/base-path.js"> in "/index.html" can't be bundled without type="module" attribute
+n8n-editor-ui:build: <script src="/{{BASE_PATH}}/static/posthog.init.js"> in "/index.html" can't be bundled without type="module" attribute
+n8n-editor-ui:build: 
+n8n-editor-ui:build: /{{BASE_PATH}}/static/prefers-color-scheme.css doesn't exist at build time, it will remain unchanged to be resolved at runtime
+n8n-editor-ui:build: Browserslist: browsers data (caniuse-lite) is 7 months old. Please run:
+n8n-editor-ui:build:   npx update-browserslist-db@latest
+n8n-editor-ui:build:   Why you should do it regularly: https://github.com/browserslist/update-db#readme
+n8n-editor-ui:build: [plugin builtin:import-glob] Invalid glob pattern: `@n8n/i18n/locales/*.json` in file 'src/app/dev/i18nHmr.ts'. Glob patterns must start with:
+n8n-editor-ui:build:   • '/' for absolute paths from project root
+n8n-editor-ui:build:   • './' or '../' for relative paths
+n8n-editor-ui:build:   • '**/' for recursive matching from project root
+n8n-editor-ui:build:   • '#' for subpath imports (with '*' wildcard)
+n8n-editor-ui:build: [plugin rolldown:vite-resolve] Module "os" has been externalized for browser compatibility, imported by "/Users/richard/Desktop/projects/n8n/node_modules/.pnpm/recast@0.22.0/node_modules/recast/lib/util.js". See https://vite.dev/guide/troubleshooting.html#module-externalized-for-browser-compatibility for more details.
+n8n-editor-ui:build: [2Kn8n-editor-ui:build: transforming...[32m✓[39m 6703 modules transformed.
+n8n-editor-ui:build: rendering chunks...
+n8n-editor-ui:build: [plugin builtin:reporter] 
+n8n-editor-ui:build: (!) /Users/richard/Desktop/projects/n8n/packages/frontend/editor-ui/src/features/ndv/parameters/components/CollectionParameter.vue is dynamically imported by /Users/richard/Desktop/projects/n8n/packages/frontend/editor-ui/src/features/ndv/parameters/components/ParameterInputList.vue?vue&type=script&setup=true&lang.ts but also statically imported by /Users/richard/Desktop/projects/n8n/packages/frontend/editor-ui/src/features/ndv/parameters/components/MultipleParameter.vue?vue&type=script&setup=true&lang.ts, dynamic import will not move module into another chunk.
+n8n-editor-ui:build: 
+n8n-editor-ui:build: [vite-plugin-static-copy] Copied 2 items.
+n8n-editor-ui:build: computing gzip size...
+n8n-editor-ui:build: [2mdist/[22m[32mindex.html                                                     [39m[1m[2m   14.89 kB[22m[22m[2m │ gzip:   2.74 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[32msqlite3-opfs-async-proxy-vVtmDGHX.js                    [39m[1m[2m   15.79 kB[22m[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[32melement-icons-B-tDfklg.woff                             [39m[1m[2m   28.20 kB[22m[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[32melement-icons-_lZGOqcG.ttf                              [39m[1m[2m   55.95 kB[22m[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[32mCommitMonoVariable-ytizKI8U.woff2                       [39m[1m[2m   86.76 kB[22m[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[32mdoppler-B__k0MeW.webp                                   [39m[1m[2m  315.06 kB[22m[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[32mInterVariable-DiVDrmQJ.woff2                            [39m[1m[2m  352.24 kB[22m[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[32msqlite3-worker1-bundler-friendly-BOYmhhGN.js            [39m[1m[2m  362.94 kB[22m[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[32mworker-CIvWfg3a.js                                      [39m[1m[2m  377.11 kB[22m[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[32mInterVariable-Italic-FCBEiFp6.woff2                     [39m[1m[2m  387.97 kB[22m[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[32msqlite3-DBpDb1lf.wasm                                   [39m[1m[2m  856.44 kB[22m[22m[2m │ gzip: 396.48 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[32mtypescript.worker-CYqLvLHh.js                           [39m[1m[2m7,973.57 kB[22m[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mEntityNotFound-D6gi5ngN.css                             [39m[1m[2m    0.19 kB[22m[22m[2m │ gzip:   0.16 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mEntityUnAuthorised-D3XTbU6Y.css                         [39m[1m[2m    0.19 kB[22m[22m[2m │ gzip:   0.16 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mProjectRolesView-CZqQ656d.css                           [39m[1m[2m    0.26 kB[22m[22m[2m │ gzip:   0.17 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mSeverityTag-C0hCvHeU.css                                [39m[1m[2m    0.27 kB[22m[22m[2m │ gzip:   0.15 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mMigrationRuleDetail-4tgkxxhX.css                        [39m[1m[2m    0.42 kB[22m[22m[2m │ gzip:   0.28 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mNDVEmptyState-Bho0_Ev8.css                              [39m[1m[2m    0.52 kB[22m[22m[2m │ gzip:   0.28 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mAnimatedSpinner-CoP6Lyme.css                            [39m[1m[2m    0.57 kB[22m[22m[2m │ gzip:   0.19 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mProjectRoleView-Ds9qdhh9.css                            [39m[1m[2m    0.86 kB[22m[22m[2m │ gzip:   0.42 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mResolversView-Bl6WIGF0.css                              [39m[1m[2m    1.02 kB[22m[22m[2m │ gzip:   0.43 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mMigrationRules-wMqorxjv.css                             [39m[1m[2m    1.42 kB[22m[22m[2m │ gzip:   0.50 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mRunDataHtml-Bu3RZcuV.css                                [39m[1m[2m    2.53 kB[22m[22m[2m │ gzip:   0.46 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mCredentialIcon-bZrcXcyJ.css                             [39m[1m[2m    2.56 kB[22m[22m[2m │ gzip:   0.47 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mNodeIcon-eaW3atZy.css                                   [39m[1m[2m    2.57 kB[22m[22m[2m │ gzip:   0.48 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mTextWithHighlights-BgbTzzK2.css                         [39m[1m[2m    2.63 kB[22m[22m[2m │ gzip:   0.51 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mKeyboardShortcutTooltip-pRLqnHdh.css                    [39m[1m[2m    2.65 kB[22m[22m[2m │ gzip:   0.52 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mRunDataJsonActions-CZx7rSSE.css                         [39m[1m[2m    2.65 kB[22m[22m[2m │ gzip:   0.52 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mInsightsPaywall-CE5W3W4m.css                            [39m[1m[2m    2.70 kB[22m[22m[2m │ gzip:   0.56 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mDraggable-DfBtatxg.css                                  [39m[1m[2m    2.72 kB[22m[22m[2m │ gzip:   0.55 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mExternalSecretsProviderConnectionSwitch-dpp96SMy.css    [39m[1m[2m    2.74 kB[22m[22m[2m │ gzip:   0.56 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mChatLayout-CxM-3LAt.css                                 [39m[1m[2m    2.83 kB[22m[22m[2m │ gzip:   0.61 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mModelByIdSelectorModal-CF6s_557.css                     [39m[1m[2m    2.86 kB[22m[22m[2m │ gzip:   0.60 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mSaveButton-Dc01Y2MA.css                                 [39m[1m[2m    2.86 kB[22m[22m[2m │ gzip:   0.61 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mPageViewLayout-Cn6FD0Wt.css                             [39m[1m[2m    2.90 kB[22m[22m[2m │ gzip:   0.62 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mErrorView-D2OMvGTk.css                                  [39m[1m[2m    2.93 kB[22m[22m[2m │ gzip:   0.62 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mNodeCreation-CKa3G1zA.css                               [39m[1m[2m    2.93 kB[22m[22m[2m │ gzip:   0.65 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mSelectedItemsInfo-DDbNnY7M.css                          [39m[1m[2m    2.96 kB[22m[22m[2m │ gzip:   0.64 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mWorkflowExecutionsLandingPage-DMldlKod.css              [39m[1m[2m    2.97 kB[22m[22m[2m │ gzip:   0.63 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mCredentialSelectorModal-CKQNdS8g.css                    [39m[1m[2m    3.05 kB[22m[22m[2m │ gzip:   0.63 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mTemplatesCollectionView-klb8FT9y.css                    [39m[1m[2m    3.06 kB[22m[22m[2m │ gzip:   0.66 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mSigninView-BQgsTN8o.css                                 [39m[1m[2m    3.07 kB[22m[22m[2m │ gzip:   0.68 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mTemplateCard-DxDBlS6p.css                               [39m[1m[2m    3.10 kB[22m[22m[2m │ gzip:   0.67 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mSetupWorkflowFromTemplateView-CU2iGJTa.css              [39m[1m[2m    3.10 kB[22m[22m[2m │ gzip:   0.68 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mSettingsExternalSecrets-CaiOf7cD.css                    [39m[1m[2m    3.10 kB[22m[22m[2m │ gzip:   0.65 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35museCommandBar-eK4Fv9lH.css                              [39m[1m[2m    3.12 kB[22m[22m[2m │ gzip:   0.66 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mWorkflowPreview-CYpzxJej.css                            [39m[1m[2m    3.17 kB[22m[22m[2m │ gzip:   0.72 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mChatPersonalAgentsView-BiiyFIRl.css                     [39m[1m[2m    3.22 kB[22m[22m[2m │ gzip:   0.70 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mAgentEditorModal-CzlIqORm.css                           [39m[1m[2m    3.25 kB[22m[22m[2m │ gzip:   0.71 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mSettingsLdapView-BuamZyhu.css                           [39m[1m[2m    3.26 kB[22m[22m[2m │ gzip:   0.70 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mProjectBreadcrumb-CAEDvzuN.css                          [39m[1m[2m    3.27 kB[22m[22m[2m │ gzip:   0.71 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mDataTableView-ByKnlVtU.css                              [39m[1m[2m    3.28 kB[22m[22m[2m │ gzip:   0.78 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mTemplatesWorkflowView-CBjRBbmw.css                      [39m[1m[2m    3.29 kB[22m[22m[2m │ gzip:   0.74 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mRunDataSearch-BvNE3iVy.css                              [39m[1m[2m    3.29 kB[22m[22m[2m │ gzip:   0.72 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mWorkflowExecutionsInfoAccordion-CEOvJ-SX.css            [39m[1m[2m    3.32 kB[22m[22m[2m │ gzip:   0.74 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mResourceFiltersDropdown-Cma1Lj9J.css                    [39m[1m[2m    3.32 kB[22m[22m[2m │ gzip:   0.70 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mWorkflowLocation-6rp_-CuW.css                           [39m[1m[2m    3.33 kB[22m[22m[2m │ gzip:   0.72 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mInsightsTableWorkflows-D20Yb7ZW.css                     [39m[1m[2m    3.35 kB[22m[22m[2m │ gzip:   0.77 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mChatAgentAvatar-B68ZZ295.css                            [39m[1m[2m    3.36 kB[22m[22m[2m │ gzip:   0.70 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mProviderSettingsModal-CZ44KI4I.css                      [39m[1m[2m    3.37 kB[22m[22m[2m │ gzip:   0.68 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35museTelemetryContext-BpnKRIT7.css                        [39m[1m[2m    3.38 kB[22m[22m[2m │ gzip:   0.74 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mPrebuiltAgentTemplatesView-jF7HvWnL.css                 [39m[1m[2m    3.40 kB[22m[22m[2m │ gzip:   0.75 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mChatWorkflowAgentsView-BBfu-g98.css                     [39m[1m[2m    3.41 kB[22m[22m[2m │ gzip:   0.76 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mProjectCardBadge-XPHWNQHG.css                           [39m[1m[2m    3.41 kB[22m[22m[2m │ gzip:   0.76 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mProjectIcon-DT95ZcDW.css                                [39m[1m[2m    3.50 kB[22m[22m[2m │ gzip:   0.72 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mSettingsPersonalView-DEpYU3TT.css                       [39m[1m[2m    3.50 kB[22m[22m[2m │ gzip:   0.82 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mToolsSelectorModal-B2z9ibQ0.css                         [39m[1m[2m    3.63 kB[22m[22m[2m │ gzip:   0.73 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mChatFile-DMzpEB1j.css                                   [39m[1m[2m    3.63 kB[22m[22m[2m │ gzip:   0.85 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mCopyInput-BiDmlr9B.css                                  [39m[1m[2m    3.84 kB[22m[22m[2m │ gzip:   0.90 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mRunDataParsedAiContent-CvjNCtpG.css                     [39m[1m[2m    3.95 kB[22m[22m[2m │ gzip:   0.75 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mevaluation-CGxdCHrN.css                                 [39m[1m[2m    4.12 kB[22m[22m[2m │ gzip:   0.92 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mSettingsSourceControl-DEs9MNB6.css                      [39m[1m[2m    4.19 kB[22m[22m[2m │ gzip:   0.92 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mOAuthConsentView-CXZbBKS5.css                           [39m[1m[2m    4.44 kB[22m[22m[2m │ gzip:   0.95 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mTagsDropdown-Do1UB2LF.css                               [39m[1m[2m    4.95 kB[22m[22m[2m │ gzip:   1.12 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mFixedCollectionParameter-BLkaFn--.css                   [39m[1m[2m    5.10 kB[22m[22m[2m │ gzip:   0.96 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mInsightsDashboard-CttFeZVb.css                          [39m[1m[2m    5.35 kB[22m[22m[2m │ gzip:   1.39 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mTemplateDetails-DfyKyMyy.css                            [39m[1m[2m    5.40 kB[22m[22m[2m │ gzip:   0.65 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mbanners-UK5wWFEI.css                                    [39m[1m[2m    5.44 kB[22m[22m[2m │ gzip:   0.67 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mCommunityNodeUpdateInfo-kPDiipF5.css                    [39m[1m[2m    5.52 kB[22m[22m[2m │ gzip:   0.69 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mMCPConnectWorkflowsModal-CS2q8ice.css                   [39m[1m[2m    5.67 kB[22m[22m[2m │ gzip:   0.75 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mSettingsChatHubView-zBt63VWY.css                        [39m[1m[2m    5.72 kB[22m[22m[2m │ gzip:   0.75 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mAuthView-Dg9ZkCud.css                                   [39m[1m[2m    5.80 kB[22m[22m[2m │ gzip:   0.80 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mModal-DNkRJkUt.css                                      [39m[1m[2m    5.90 kB[22m[22m[2m │ gzip:   0.81 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mTemplatesView-iSPzXjQB.css                              [39m[1m[2m    5.92 kB[22m[22m[2m │ gzip:   0.82 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mSettingsView-6sirGv9l.css                               [39m[1m[2m    6.01 kB[22m[22m[2m │ gzip:   0.85 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mSettingsLogStreamingView-xo-rTSA0.css                   [39m[1m[2m    6.02 kB[22m[22m[2m │ gzip:   0.91 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mCredentialsView-BDOl2A0w.css                            [39m[1m[2m    6.03 kB[22m[22m[2m │ gzip:   0.90 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35museCustomAgent-tUoLIUar.css                             [39m[1m[2m    6.12 kB[22m[22m[2m │ gzip:   0.92 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mInsightsSummary-CnaRV949.css                            [39m[1m[2m    6.17 kB[22m[22m[2m │ gzip:   1.35 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mProjectSharing-5AaqsE7p.css                             [39m[1m[2m    6.19 kB[22m[22m[2m │ gzip:   0.86 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mCredentialPicker-CWT-qPMn.css                           [39m[1m[2m    6.25 kB[22m[22m[2m │ gzip:   0.96 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mAddDataTableModal-CZuODwEx.css                          [39m[1m[2m    6.36 kB[22m[22m[2m │ gzip:   1.30 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mProjectHeader-DMoL829v.css                              [39m[1m[2m    6.43 kB[22m[22m[2m │ gzip:   1.00 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mSettingsCommunityNodesView-m7kLUpJK.css                 [39m[1m[2m    6.49 kB[22m[22m[2m │ gzip:   0.98 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mSettingsApiView-Dtl_N9mK.css                            [39m[1m[2m    6.64 kB[22m[22m[2m │ gzip:   1.05 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mRunDataJson-LufoUTRy.css                                [39m[1m[2m    7.26 kB[22m[22m[2m │ gzip:   1.10 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mAlert-BA2uuWjw.css                                      [39m[1m[2m    7.28 kB[22m[22m[2m │ gzip:   1.11 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mRunDataTable-HBCyaP8o.css                               [39m[1m[2m    7.72 kB[22m[22m[2m │ gzip:   1.68 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mWorkflowActivator-CRuFECGA.css                          [39m[1m[2m    8.03 kB[22m[22m[2m │ gzip:   0.78 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mSetupTemplateFormStep-n3VY06cx.css                      [39m[1m[2m    8.25 kB[22m[22m[2m │ gzip:   0.83 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mNodeDetailsViewV2-CgELKnqG.css                          [39m[1m[2m    8.30 kB[22m[22m[2m │ gzip:   1.47 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mTestRunDetailView-CVGty0j0.css                          [39m[1m[2m    8.39 kB[22m[22m[2m │ gzip:   1.49 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mProjectVariables-CVX3Lygi.css                           [39m[1m[2m    8.87 kB[22m[22m[2m │ gzip:   1.06 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mSettingsUsersView-CfJcVjkl.css                          [39m[1m[2m    9.32 kB[22m[22m[2m │ gzip:   1.15 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mSkeletonAgentCard-zoEiPx0y.css                          [39m[1m[2m    9.64 kB[22m[22m[2m │ gzip:   1.14 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mProjectSettings-vir6puPd.css                            [39m[1m[2m    9.72 kB[22m[22m[2m │ gzip:   1.17 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mSettingsUsageAndPlan-CX3b3V8W.css                       [39m[1m[2m    9.83 kB[22m[22m[2m │ gzip:   1.22 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mBottomMenu-CRVyIu-B.css                                 [39m[1m[2m    9.98 kB[22m[22m[2m │ gzip:   1.25 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mTemplateList-CNUtq0N7.css                               [39m[1m[2m   10.03 kB[22m[22m[2m │ gzip:   1.21 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mExecutionsTime-DsKEQKgY.css                             [39m[1m[2m   10.09 kB[22m[22m[2m │ gzip:   1.29 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mVirtualSchema-CwutU4vj.css                              [39m[1m[2m   10.14 kB[22m[22m[2m │ gzip:   2.23 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mResourcesListLayout-DLAMdJD5.css                        [39m[1m[2m   10.30 kB[22m[22m[2m │ gzip:   1.32 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mExecutionsView-DP5OXlS4.css                             [39m[1m[2m   11.05 kB[22m[22m[2m │ gzip:   1.05 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mSettingsSso-DPkEVc10.css                                [39m[1m[2m   11.98 kB[22m[22m[2m │ gzip:   1.16 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mEvaluationsView-CmcDUAS_.css                            [39m[1m[2m   12.06 kB[22m[22m[2m │ gzip:   1.28 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mEvaluationsRootView-D22182Fd.css                        [39m[1m[2m   12.34 kB[22m[22m[2m │ gzip:   1.30 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35museLogsTreeExpand-nZMKe2ps.css                          [39m[1m[2m   12.61 kB[22m[22m[2m │ gzip:   1.84 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mChatSidebar-DcNxY7Pt.css                                [39m[1m[2m   13.72 kB[22m[22m[2m │ gzip:   1.57 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mNodeDetailsView-Dy4A-9xj.css                            [39m[1m[2m   13.82 kB[22m[22m[2m │ gzip:   1.64 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mWorkflowExecutionsPreview-BkXT82z5.css                  [39m[1m[2m   15.45 kB[22m[22m[2m │ gzip:   1.94 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mMainSidebar-CEsQ8o1Y.css                                [39m[1m[2m   16.09 kB[22m[22m[2m │ gzip:   1.56 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mWorkflowExecutionsView-DzHhxp4K.css                     [39m[1m[2m   16.60 kB[22m[22m[2m │ gzip:   1.85 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mWorkflowHistory-BBHdNsOb.css                            [39m[1m[2m   16.64 kB[22m[22m[2m │ gzip:   1.94 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mNodeView-AuBajxDh.css                                   [39m[1m[2m   18.81 kB[22m[22m[2m │ gzip:   2.09 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mTemplatesSearchView-BfT0LMil.css                        [39m[1m[2m   19.49 kB[22m[22m[2m │ gzip:   1.94 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mWorkerView-dRylOW7G.css                                 [39m[1m[2m   22.85 kB[22m[22m[2m │ gzip:   1.49 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mTriggerPanel-BjsM2DGf.css                               [39m[1m[2m   25.58 kB[22m[22m[2m │ gzip:   2.65 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mMainHeader-DJA_Afhq.css                                 [39m[1m[2m   27.56 kB[22m[22m[2m │ gzip:   2.04 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mDataTableDetailsView-CV4twGRm.css                       [39m[1m[2m   30.20 kB[22m[22m[2m │ gzip:   2.76 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mSettingsMCPView-DIdodQTu.css                            [39m[1m[2m   31.21 kB[22m[22m[2m │ gzip:   2.16 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mChatView-mTIZIDr3.css                                   [39m[1m[2m   31.83 kB[22m[22m[2m │ gzip:   3.39 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mNodeCreator-C-ckvxD7.css                                [39m[1m[2m   36.26 kB[22m[22m[2m │ gzip:   3.17 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mItemsRenderer-Cr6c6uYy.css                              [39m[1m[2m   39.12 kB[22m[22m[2m │ gzip:   2.46 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mNodeSettings-BIOqhOCE.css                               [39m[1m[2m   40.04 kB[22m[22m[2m │ gzip:   3.70 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mWorkflowsView-C-PD10oe.css                              [39m[1m[2m   41.10 kB[22m[22m[2m │ gzip:   3.19 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35misEmpty-DPTwjt9s.css                                    [39m[1m[2m   48.42 kB[22m[22m[2m │ gzip:   4.11 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mLogsPanel-xSodDRmo.css                                  [39m[1m[2m   74.30 kB[22m[22m[2m │ gzip:   5.55 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35museCanvasMapping-CyDAqgNV.css                           [39m[1m[2m  110.72 kB[22m[22m[2m │ gzip:   7.15 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mParameterInputList-0YoVowEI.css                         [39m[1m[2m  180.44 kB[22m[22m[2m │ gzip:  12.30 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35msrc-UjW20PkV.css                                        [39m[1m[2m  415.68 kB[22m[22m[2m │ gzip:  28.80 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[35mindex-dY77VjIT.css                                      [39m[1m[2m  697.45 kB[22m[22m[2m │ gzip:  67.39 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36men-BD3FHSTF.js                                          [39m[1m[2m    0.08 kB[22m[22m[2m │ gzip:   0.08 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36msourceControl.eventBus-BEDL-EuC.js                      [39m[1m[2m    0.14 kB[22m[22m[2m │ gzip:   0.12 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mcore-W21PI-3x.js                                        [39m[1m[2m    0.20 kB[22m[22m[2m │ gzip:   0.16 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36m_plugin-vue_export-helper-BwBpWJRZ.js                   [39m[1m[2m    0.22 kB[22m[22m[2m │ gzip:   0.16 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36msmartDecimal-Bi50OE4b.js                                [39m[1m[2m    0.23 kB[22m[22m[2m │ gzip:   0.17 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mauth.eventBus-DIgfbRjo.js                               [39m[1m[2m    0.27 kB[22m[22m[2m │ gzip:   0.15 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36msortByProperty-DAqnDMg7.js                              [39m[1m[2m    0.28 kB[22m[22m[2m │ gzip:   0.20 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mRunDataHtml-CCt_BRWz.js                                 [39m[1m[2m    0.31 kB[22m[22m[2m │ gzip:   0.21 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36muniqBy-Cc_QAVO2.js                                      [39m[1m[2m    0.49 kB[22m[22m[2m │ gzip:   0.29 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mfileUtils-D3GQ2UWQ.js                                   [39m[1m[2m    0.60 kB[22m[22m[2m │ gzip:   0.35 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mretry-CMAFrhVi.js                                       [39m[1m[2m    0.68 kB[22m[22m[2m │ gzip:   0.35 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mmcp.constants-CJUPEARw.js                               [39m[1m[2m    0.69 kB[22m[22m[2m │ gzip:   0.36 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36morderBy-Z50IAqXn.js                                     [39m[1m[2m    0.73 kB[22m[22m[2m │ gzip:   0.36 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36museIntersectionObserver-DrMiZKJi.js                     [39m[1m[2m    0.77 kB[22m[22m[2m │ gzip:   0.36 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mpickBy-kDUhk92W.js                                      [39m[1m[2m    0.84 kB[22m[22m[2m │ gzip:   0.40 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mVueMarkdown-D2nV5lV1.js                                 [39m[1m[2m    0.85 kB[22m[22m[2m │ gzip:   0.45 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mEnterpriseEdition.ee-s51cpqlZ.js                        [39m[1m[2m    0.86 kB[22m[22m[2m │ gzip:   0.47 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36museExecutionData-CCiWTH2x.js                            [39m[1m[2m    0.89 kB[22m[22m[2m │ gzip:   0.39 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mWorkflowActivationErrorMessage-CZKm93iP.js              [39m[1m[2m    0.89 kB[22m[22m[2m │ gzip:   0.48 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mRunDataParsedAiContent-Bipf_5HU.js                      [39m[1m[2m    0.93 kB[22m[22m[2m │ gzip:   0.47 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mPageViewLayout-B889Bfwc.js                              [39m[1m[2m    0.95 kB[22m[22m[2m │ gzip:   0.46 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36museMcp-C1j3y4vI.js                                      [39m[1m[2m    1.07 kB[22m[22m[2m │ gzip:   0.49 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mSignoutView-s8lzZmGZ.js                                 [39m[1m[2m    1.18 kB[22m[22m[2m │ gzip:   0.63 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36muserRoleProvisioning.store-C617AP0s.js                  [39m[1m[2m    1.26 kB[22m[22m[2m │ gzip:   0.46 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36museBeforeUnload-BXf0j1R8.js                             [39m[1m[2m    1.35 kB[22m[22m[2m │ gzip:   0.59 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mRunDataHtml-ogNv2ozg.js                                 [39m[1m[2m    1.43 kB[22m[22m[2m │ gzip:   0.68 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mEmptySharedSectionActionBox-gfL7fT0D.js                 [39m[1m[2m    1.49 kB[22m[22m[2m │ gzip:   0.75 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36museClipboard-KKrNQpa0.js                                [39m[1m[2m    1.52 kB[22m[22m[2m │ gzip:   0.70 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mconstants-CasO_sxg.js                                   [39m[1m[2m    1.53 kB[22m[22m[2m │ gzip:   0.65 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mutils-CReevMZ1.js                                       [39m[1m[2m    1.56 kB[22m[22m[2m │ gzip:   0.73 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36museTelemetryContext-B4PFarjq.js                         [39m[1m[2m    1.60 kB[22m[22m[2m │ gzip:   0.71 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mVirtualSchema-fiIidhP8.js                               [39m[1m[2m    1.62 kB[22m[22m[2m │ gzip:   0.76 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mAnimatedSpinner-BKvs0-tV.js                             [39m[1m[2m    1.69 kB[22m[22m[2m │ gzip:   0.62 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mInsightsChartFailed-IEZTCffZ.js                         [39m[1m[2m    1.80 kB[22m[22m[2m │ gzip:   0.87 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mPushConnectionTracker-UHix6eJY.js                       [39m[1m[2m    1.80 kB[22m[22m[2m │ gzip:   0.82 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mchunk-6z4oVpB-.js                                       [39m[1m[2m    1.87 kB[22m[22m[2m │ gzip:   0.83 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mKeyboardShortcutTooltip-BvEHFp-c.js                     [39m[1m[2m    1.92 kB[22m[22m[2m │ gzip:   0.78 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mapiKeys.store-CuHb-06s.js                               [39m[1m[2m    1.94 kB[22m[22m[2m │ gzip:   0.69 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mInsightsChartTotal-Vq6AZSoq.js                          [39m[1m[2m    1.96 kB[22m[22m[2m │ gzip:   0.89 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mdateFormatter-DTo7gJkN.js                               [39m[1m[2m    1.98 kB[22m[22m[2m │ gzip:   0.68 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36minsights.constants-B7y0cvTb.js                          [39m[1m[2m    2.00 kB[22m[22m[2m │ gzip:   0.72 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mSeverityTag-DL61Sfp4.js                                 [39m[1m[2m    2.06 kB[22m[22m[2m │ gzip:   0.88 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mInsightsChartFailureRate-Bd3AmHNx.js                    [39m[1m[2m    2.07 kB[22m[22m[2m │ gzip:   0.96 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mWorkflowTagsDropdown-DlPklqfS.js                        [39m[1m[2m    2.10 kB[22m[22m[2m │ gzip:   0.86 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mpreload-helper-CR0ecmWK.js                              [39m[1m[2m    2.13 kB[22m[22m[2m │ gzip:   1.00 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mtemplateTransforms-DiCYC-_g.js                          [39m[1m[2m    2.15 kB[22m[22m[2m │ gzip:   0.64 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mAnnotationTagsDropdown.ee-D5i-DF53.js                   [39m[1m[2m    2.16 kB[22m[22m[2m │ gzip:   0.88 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mLogsPanel-BeOGOXrA.js                                   [39m[1m[2m    2.19 kB[22m[22m[2m │ gzip:   0.99 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mCollectionParameter-DcqzXlJb.js                         [39m[1m[2m    2.22 kB[22m[22m[2m │ gzip:   1.00 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mInsightsChartAverageRuntime-DfVAh6Mq.js                 [39m[1m[2m    2.28 kB[22m[22m[2m │ gzip:   1.04 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36musePageRedirectionHelper-yLHNZRDx.js                    [39m[1m[2m    2.29 kB[22m[22m[2m │ gzip:   0.79 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mInsightsChartTimeSaved-C5ymOGCz.js                      [39m[1m[2m    2.37 kB[22m[22m[2m │ gzip:   1.10 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mroles.store-BUoyhEOR.js                                 [39m[1m[2m    2.37 kB[22m[22m[2m │ gzip:   0.80 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mWorkflowOnboardingView-CULQVE0B.js                      [39m[1m[2m    2.44 kB[22m[22m[2m │ gzip:   0.97 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mnodeTransforms-DN9QIDUQ.js                              [39m[1m[2m    2.46 kB[22m[22m[2m │ gzip:   0.78 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mProjectIcon-D-SHZ8Lo.js                                 [39m[1m[2m    2.49 kB[22m[22m[2m │ gzip:   1.01 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mSamlOnboarding-D6rFYuax.js                              [39m[1m[2m    2.55 kB[22m[22m[2m │ gzip:   1.12 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mSelectedItemsInfo-DP6OeMVd.js                           [39m[1m[2m    2.56 kB[22m[22m[2m │ gzip:   0.94 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mDemoFooter-BTLNbTZt.js                                  [39m[1m[2m    2.75 kB[22m[22m[2m │ gzip:   1.27 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mInsightsPaywall-DXiFRLhs.js                             [39m[1m[2m    2.81 kB[22m[22m[2m │ gzip:   1.09 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36museKeybindings-DXFS39Hw.js                              [39m[1m[2m    2.84 kB[22m[22m[2m │ gzip:   1.15 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mErrorView-CzuwDTBk.js                                   [39m[1m[2m    2.85 kB[22m[22m[2m │ gzip:   1.14 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36museCredentialResolvers-CXYFcq2x.js                      [39m[1m[2m    2.93 kB[22m[22m[2m │ gzip:   0.95 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mEntityUnAuthorised-C21GgDco.js                          [39m[1m[2m    2.95 kB[22m[22m[2m │ gzip:   1.24 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mTemplatesView-C0ZlMziB.js                               [39m[1m[2m    2.98 kB[22m[22m[2m │ gzip:   0.99 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mtemplateActions-BZAhzsbL.js                             [39m[1m[2m    3.03 kB[22m[22m[2m │ gzip:   1.02 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mNodeIcon-DmA-t6YK.js                                    [39m[1m[2m    3.03 kB[22m[22m[2m │ gzip:   1.05 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mTextWithHighlights-C4QSPTGM.js                          [39m[1m[2m    3.03 kB[22m[22m[2m │ gzip:   1.11 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36minsights.store-DtvhvKvK.js                              [39m[1m[2m    3.03 kB[22m[22m[2m │ gzip:   0.91 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mCopyInput-CzPpDRgQ.js                                   [39m[1m[2m    3.14 kB[22m[22m[2m │ gzip:   1.21 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mSetupWorkflowCredentialsButton-Cvb1N87v.js              [39m[1m[2m    3.14 kB[22m[22m[2m │ gzip:   1.28 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mEntityNotFound-B5wV7iK1.js                              [39m[1m[2m    3.16 kB[22m[22m[2m │ gzip:   1.15 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mSaveButton-Dv1S4SmQ.js                                  [39m[1m[2m    3.20 kB[22m[22m[2m │ gzip:   1.13 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mCredentialIcon-JOxkwJkF.js                              [39m[1m[2m    3.23 kB[22m[22m[2m │ gzip:   1.14 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36museExecutionHelpers-Bfc5sxOB.js                         [39m[1m[2m    3.24 kB[22m[22m[2m │ gzip:   1.08 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mForgotMyPasswordView-CkMr9w0Y.js                        [39m[1m[2m    3.39 kB[22m[22m[2m │ gzip:   1.37 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mSetupView-6FKhdatE.js                                   [39m[1m[2m    3.40 kB[22m[22m[2m │ gzip:   1.30 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mChatAgentAvatar-BCqxpTi5.js                             [39m[1m[2m    3.54 kB[22m[22m[2m │ gzip:   1.36 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mDataTableActions-Gh_vN-z4.js                            [39m[1m[2m    3.58 kB[22m[22m[2m │ gzip:   1.23 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mProjectBreadcrumb-BWLGBnK-.js                           [39m[1m[2m    3.69 kB[22m[22m[2m │ gzip:   1.30 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mschemaPreview.store-Bc01QunB.js                         [39m[1m[2m    3.76 kB[22m[22m[2m │ gzip:   1.46 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36m_initCloneObject-BaeiVTrM.js                            [39m[1m[2m    3.77 kB[22m[22m[2m │ gzip:   1.17 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mFileSaver.min--9uV1QmK.js                               [39m[1m[2m    3.82 kB[22m[22m[2m │ gzip:   1.59 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mnpsSurvey.store-D_r-7RUb.js                             [39m[1m[2m    3.88 kB[22m[22m[2m │ gzip:   1.10 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36minsights.utils-B7YmViY2.js                              [39m[1m[2m    4.12 kB[22m[22m[2m │ gzip:   1.30 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36musage.store-BaIOfNhe.js                                 [39m[1m[2m    4.12 kB[22m[22m[2m │ gzip:   1.25 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mAlert-B9bD7NIb.js                                       [39m[1m[2m    4.16 kB[22m[22m[2m │ gzip:   1.33 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mexternalSecrets.ee.store-CDKV9sNe.js                    [39m[1m[2m    4.24 kB[22m[22m[2m │ gzip:   1.27 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mnodeIcon-zCjOsz31.js                                    [39m[1m[2m    4.24 kB[22m[22m[2m │ gzip:   1.28 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mchartjs.utils-C0M5EA6D.js                               [39m[1m[2m    4.29 kB[22m[22m[2m │ gzip:   1.05 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mTimeAgo-CiE64uam.js                                     [39m[1m[2m    4.30 kB[22m[22m[2m │ gzip:   1.64 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mcol-LWbly8Tv.js                                         [39m[1m[2m    4.36 kB[22m[22m[2m │ gzip:   1.36 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mchatPanel.store-CgJ03Nkr.js                             [39m[1m[2m    4.39 kB[22m[22m[2m │ gzip:   1.30 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mSignupView-Ct3aI4Rh.js                                  [39m[1m[2m    4.41 kB[22m[22m[2m │ gzip:   1.61 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mDraggable-BwFpr6XK.js                                   [39m[1m[2m    4.53 kB[22m[22m[2m │ gzip:   1.51 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mAuthView-BYsoqZA0.js                                    [39m[1m[2m    4.54 kB[22m[22m[2m │ gzip:   1.55 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mmcp.store-CckwjXVb.js                                   [39m[1m[2m    4.58 kB[22m[22m[2m │ gzip:   1.35 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mdist-Bk1LloFt.js                                        [39m[1m[2m    4.60 kB[22m[22m[2m │ gzip:   1.52 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36museRecentResources-YTZ83MVn.js                          [39m[1m[2m    4.68 kB[22m[22m[2m │ gzip:   1.54 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mTemplateCard-B6jrPSAo.js                                [39m[1m[2m    4.79 kB[22m[22m[2m │ gzip:   1.80 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mChatFile-BwleORD2.js                                    [39m[1m[2m    4.84 kB[22m[22m[2m │ gzip:   1.48 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36museExecutionDebugging-qyFR1qVx.js                       [39m[1m[2m    4.85 kB[22m[22m[2m │ gzip:   1.73 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mChangePasswordView-DHrwrCgn.js                          [39m[1m[2m    4.87 kB[22m[22m[2m │ gzip:   1.72 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36men-b3uD8cvU.js                                          [39m[1m[2m    4.88 kB[22m[22m[2m │ gzip:   1.76 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mWorkflowExecutionsLandingPage-N_CVyNNA.js               [39m[1m[2m    4.88 kB[22m[22m[2m │ gzip:   1.68 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36museSettingsItems-BDvcntCM.js                            [39m[1m[2m    5.00 kB[22m[22m[2m │ gzip:   1.28 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mModelByIdSelectorModal-kwxqeWcA.js                      [39m[1m[2m    5.00 kB[22m[22m[2m │ gzip:   1.76 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mChatLayout-BkXJosvV.js                                  [39m[1m[2m    5.16 kB[22m[22m[2m │ gzip:   1.96 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mSettingsView-Dt4V4U5K.js                                [39m[1m[2m    5.22 kB[22m[22m[2m │ gzip:   1.74 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mdateformat-hG8NERse.js                                  [39m[1m[2m    5.28 kB[22m[22m[2m │ gzip:   1.98 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36museWorkflowsCache-B-YsTvju.js                           [39m[1m[2m    5.30 kB[22m[22m[2m │ gzip:   1.44 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36msso.store-C-2_ICko.js                                   [39m[1m[2m    5.52 kB[22m[22m[2m │ gzip:   1.36 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mRunDataSearch-oj4uoKXf.js                               [39m[1m[2m    5.57 kB[22m[22m[2m │ gzip:   2.04 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36museDebounce-BxeSUsQw.js                                 [39m[1m[2m    5.60 kB[22m[22m[2m │ gzip:   1.76 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36moverlay-CpT1IVLp.js                                     [39m[1m[2m    5.73 kB[22m[22m[2m │ gzip:   1.96 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mChatWorkflowAgentsView-DMO7cAEa.js                      [39m[1m[2m    5.99 kB[22m[22m[2m │ gzip:   2.06 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mCredentialSelectorModal-B-CwOj4V.js                     [39m[1m[2m    6.29 kB[22m[22m[2m │ gzip:   1.94 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mTemplateDetails-nDVDyBMd.js                             [39m[1m[2m    6.58 kB[22m[22m[2m │ gzip:   1.82 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mcloudPlan.store-qsT9mK_9.js                             [39m[1m[2m    6.74 kB[22m[22m[2m │ gzip:   2.12 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mlogStreaming.store-B_ZR9c79.js                          [39m[1m[2m    6.75 kB[22m[22m[2m │ gzip:   1.74 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mResourceFiltersDropdown-HRlBJpOq.js                     [39m[1m[2m    6.83 kB[22m[22m[2m │ gzip:   2.15 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mModal-BmZBmdZo.js                                       [39m[1m[2m    7.02 kB[22m[22m[2m │ gzip:   2.24 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36museWorkflowActivate-gfRx966A.js                         [39m[1m[2m    7.12 kB[22m[22m[2m │ gzip:   1.82 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mWorkflowPreview-De6fSAT-.js                             [39m[1m[2m    7.20 kB[22m[22m[2m │ gzip:   2.10 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mPrebuiltAgentTemplatesView-CsHyzUSN.js                  [39m[1m[2m    7.21 kB[22m[22m[2m │ gzip:   1.87 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mWorkflowLocation-B2ZA7yZA.js                            [39m[1m[2m    7.23 kB[22m[22m[2m │ gzip:   1.56 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mexecutions.store-D_xs7nFV.js                            [39m[1m[2m    7.26 kB[22m[22m[2m │ gzip:   1.87 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mbanners.store-Dvnxkrid.js                               [39m[1m[2m    7.29 kB[22m[22m[2m │ gzip:   2.33 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mChatPersonalAgentsView-DTyXEtgz.js                      [39m[1m[2m    7.52 kB[22m[22m[2m │ gzip:   2.39 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mversions.store-haTzxNby.js                              [39m[1m[2m    7.53 kB[22m[22m[2m │ gzip:   2.27 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mTemplatesWorkflowView-Ci3ZeM2a.js                       [39m[1m[2m    7.58 kB[22m[22m[2m │ gzip:   2.39 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mRunDataParsedAiContent-zOpr58sz.js                      [39m[1m[2m    7.81 kB[22m[22m[2m │ gzip:   2.55 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mTemplatesCollectionView-TBMeqevv.js                     [39m[1m[2m    7.98 kB[22m[22m[2m │ gzip:   2.51 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mTagsDropdown-DIMN-rrT.js                                [39m[1m[2m    8.06 kB[22m[22m[2m │ gzip:   2.61 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36musePinnedData-DOSQ1Y8L.js                               [39m[1m[2m    8.07 kB[22m[22m[2m │ gzip:   2.38 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mfocusPanel.store-CCPM-xLv.js                            [39m[1m[2m    8.40 kB[22m[22m[2m │ gzip:   2.81 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mSkeletonAgentCard-DBNpR4bP.js                           [39m[1m[2m    8.41 kB[22m[22m[2m │ gzip:   2.33 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mfolders.store-BEexD4Tk.js                               [39m[1m[2m    8.41 kB[22m[22m[2m │ gzip:   2.29 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mWorkflowExecutionsInfoAccordion-DEDZHR7T.js             [39m[1m[2m    8.67 kB[22m[22m[2m │ gzip:   2.31 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mdataTable.store-zPxj9WeU.js                             [39m[1m[2m    8.91 kB[22m[22m[2m │ gzip:   2.27 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mProjectCardBadge-CI1nl2BL.js                            [39m[1m[2m    9.06 kB[22m[22m[2m │ gzip:   2.29 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mRunDataJson-Cgwu7NWT.js                                 [39m[1m[2m    9.07 kB[22m[22m[2m │ gzip:   2.92 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mradio-CoozK4sh.js                                       [39m[1m[2m    9.43 kB[22m[22m[2m │ gzip:   2.52 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mResolversView-Cx-hsdh-.js                               [39m[1m[2m    9.67 kB[22m[22m[2m │ gzip:   2.75 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mInsightsTableWorkflows-R8j5iwuc.js                      [39m[1m[2m    9.73 kB[22m[22m[2m │ gzip:   3.00 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36museWorkflowSaving-RKNVDLaN.js                           [39m[1m[2m    9.83 kB[22m[22m[2m │ gzip:   2.75 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36museActions-DFmxGvdj.js                                  [39m[1m[2m    9.91 kB[22m[22m[2m │ gzip:   2.90 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mOAuthConsentView-DInKTdMt.js                            [39m[1m[2m    9.99 kB[22m[22m[2m │ gzip:   2.74 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mProjectRolesView-D0FFtG99.js                            [39m[1m[2m   10.16 kB[22m[22m[2m │ gzip:   3.07 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mpath-browserify-DsmB_HMK.js                             [39m[1m[2m   10.17 kB[22m[22m[2m │ gzip:   2.48 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mInsightsSummary-Cphx1osz.js                             [39m[1m[2m   10.59 kB[22m[22m[2m │ gzip:   3.10 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mNodeCreation-l4-3U6Qg.js                                [39m[1m[2m   11.22 kB[22m[22m[2m │ gzip:   3.55 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mSettingsExternalSecrets-JkhobCQG.js                     [39m[1m[2m   11.25 kB[22m[22m[2m │ gzip:   3.15 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mevaluation.constants-YTJKbrvd.js                        [39m[1m[2m   11.39 kB[22m[22m[2m │ gzip:   3.72 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mSetupTemplateFormStep-CU7oArpk.js                       [39m[1m[2m   11.57 kB[22m[22m[2m │ gzip:   3.20 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mMCPConnectWorkflowsModal-PRH3EVa0.js                    [39m[1m[2m   11.71 kB[22m[22m[2m │ gzip:   3.66 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mProjectSharing-CejeSrjy.js                              [39m[1m[2m   11.83 kB[22m[22m[2m │ gzip:   3.16 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mCommunityNodeUpdateInfo-BWWZVI2Y.js                     [39m[1m[2m   11.83 kB[22m[22m[2m │ gzip:   3.26 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mpersonalizedTemplatesV3.store-DORklHnH.js               [39m[1m[2m   11.89 kB[22m[22m[2m │ gzip:   3.12 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mSetupWorkflowFromTemplateView-DiRDLQ4a.js               [39m[1m[2m   12.26 kB[22m[22m[2m │ gzip:   3.48 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mSettingsChatHubView-OJbfa-px.js                         [39m[1m[2m   12.29 kB[22m[22m[2m │ gzip:   3.43 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mDataTableView-CBNKnoYn.js                               [39m[1m[2m   12.46 kB[22m[22m[2m │ gzip:   3.58 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mMigrationRuleDetail-BmgfB9kJ.js                         [39m[1m[2m   12.56 kB[22m[22m[2m │ gzip:   3.75 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mTemplateList-CCPZ421k.js                                [39m[1m[2m   12.69 kB[22m[22m[2m │ gzip:   3.09 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mCredentialPicker-DnfQw6fJ.js                            [39m[1m[2m   13.15 kB[22m[22m[2m │ gzip:   3.37 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mProviderSettingsModal-CE6mwJiN.js                       [39m[1m[2m   13.58 kB[22m[22m[2m │ gzip:   3.33 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mSigninView-CS7QaNd8.js                                  [39m[1m[2m   13.61 kB[22m[22m[2m │ gzip:   3.94 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mdialog-BPiZbUCL.js                                      [39m[1m[2m   13.67 kB[22m[22m[2m │ gzip:   4.08 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mSettingsApiView-U-Zs7lkf.js                             [39m[1m[2m   14.03 kB[22m[22m[2m │ gzip:   3.91 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mMigrationRules-D8LsOrGr.js                              [39m[1m[2m   14.31 kB[22m[22m[2m │ gzip:   3.16 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mAgentEditorModal-D1HFWrUt.js                            [39m[1m[2m   15.08 kB[22m[22m[2m │ gzip:   3.80 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mToolsSelectorModal-BMqvVPGR.js                          [39m[1m[2m   15.24 kB[22m[22m[2m │ gzip:   3.97 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mFixedCollectionParameter-d3FypSAf.js                    [39m[1m[2m   15.24 kB[22m[22m[2m │ gzip:   4.29 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mWorkflowActivator-hPJRS71B.js                           [39m[1m[2m   16.24 kB[22m[22m[2m │ gzip:   4.38 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mSettingsPersonalView-Cl_e548g.js                        [39m[1m[2m   16.82 kB[22m[22m[2m │ gzip:   4.08 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mExternalSecretsProviderConnectionSwitch.ee-DpZzRz9E.js  [39m[1m[2m   16.89 kB[22m[22m[2m │ gzip:   8.22 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mSettingsCommunityNodesView-BqE-dA4r.js                  [39m[1m[2m   17.15 kB[22m[22m[2m │ gzip:   4.37 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mProjectRoleView-DKFu5vU0.js                             [39m[1m[2m   17.20 kB[22m[22m[2m │ gzip:   4.21 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mSettingsLogStreamingView-BM_-ztim.js                    [39m[1m[2m   17.50 kB[22m[22m[2m │ gzip:   4.55 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36museCustomAgent-0-mhQBxT.js                              [39m[1m[2m   17.84 kB[22m[22m[2m │ gzip:   4.92 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mTestRunDetailView-35bbEvda.js                           [39m[1m[2m   18.20 kB[22m[22m[2m │ gzip:   4.56 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mSettingsUsageAndPlan-z1WTwUk6.js                        [39m[1m[2m   18.41 kB[22m[22m[2m │ gzip:   4.50 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mEvaluationsView-4ry_SyAr.js                             [39m[1m[2m   18.67 kB[22m[22m[2m │ gzip:   4.97 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36maiTemplatesStarterCollection.store-CfRTOgPs.js          [39m[1m[2m   19.69 kB[22m[22m[2m │ gzip:   5.08 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36massistant.store-B7SNQ2e4.js                             [39m[1m[2m   20.65 kB[22m[22m[2m │ gzip:   5.09 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mProjectVariables-DmSvuXub.js                            [39m[1m[2m   20.77 kB[22m[22m[2m │ gzip:   5.62 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mChatSidebar-CTa17u6u.js                                 [39m[1m[2m   21.33 kB[22m[22m[2m │ gzip:   5.82 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mCredentialsView-C0Lk0rVe.js                             [39m[1m[2m   21.34 kB[22m[22m[2m │ gzip:   5.93 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mreadyToRun.store-waizF3b4.js                            [39m[1m[2m   22.10 kB[22m[22m[2m │ gzip:   6.06 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mInsightsDashboard-C-gOIBvm.js                           [39m[1m[2m   22.35 kB[22m[22m[2m │ gzip:   5.95 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36museMessage-jI17Vrp8.js                                  [39m[1m[2m   22.46 kB[22m[22m[2m │ gzip:   5.87 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mBottomMenu-BHOwl2Kr.js                                  [39m[1m[2m   22.70 kB[22m[22m[2m │ gzip:   5.28 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mExecutionsTime-m77hcRbD.js                              [39m[1m[2m   23.28 kB[22m[22m[2m │ gzip:   4.76 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36musePushConnection-CCZfdkIS.js                           [39m[1m[2m   23.70 kB[22m[22m[2m │ gzip:   5.56 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mEvaluationsRootView-nY1DbJxB.js                         [39m[1m[2m   23.93 kB[22m[22m[2m │ gzip:   5.06 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mProjectHeader-D6z9UCNq.js                               [39m[1m[2m   24.52 kB[22m[22m[2m │ gzip:   5.68 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mbuttons.esm-CZxEX89d.js                                 [39m[1m[2m   24.60 kB[22m[22m[2m │ gzip:   7.53 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mSettingsSourceControl-Dnv-dijh.js                       [39m[1m[2m   24.95 kB[22m[22m[2m │ gzip:   4.93 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mResourcesListLayout-DwOrVIpO.js                         [39m[1m[2m   26.86 kB[22m[22m[2m │ gzip:   6.66 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mmerge-NGd3FeFW.js                                       [39m[1m[2m   27.11 kB[22m[22m[2m │ gzip:   5.68 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mRunDataTable-DD5U0tPB.js                                [39m[1m[2m   27.34 kB[22m[22m[2m │ gzip:   6.70 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mWorkerView-Dzwdzr6F.js                                  [39m[1m[2m   27.71 kB[22m[22m[2m │ gzip:   6.23 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mWorkflowExecutionsPreview-Cctdm-9Q.js                   [39m[1m[2m   28.08 kB[22m[22m[2m │ gzip:   6.06 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mchat.store-DofnLNg_.js                                  [39m[1m[2m   32.85 kB[22m[22m[2m │ gzip:   7.25 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mMainSidebar-DKShfPT-.js                                 [39m[1m[2m   33.33 kB[22m[22m[2m │ gzip:   7.89 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mSettingsUsersView-De20-KEe.js                           [39m[1m[2m   33.56 kB[22m[22m[2m │ gzip:   7.47 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mWorkflowExecutionsView-D-bk6KuZ.js                      [39m[1m[2m   34.06 kB[22m[22m[2m │ gzip:   7.93 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mExecutionsView-NGCqH9pJ.js                              [39m[1m[2m   36.12 kB[22m[22m[2m │ gzip:   7.93 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36museRunWorkflow-BrH0pXMM.js                              [39m[1m[2m   36.23 kB[22m[22m[2m │ gzip:   9.40 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mxml-BP5i5VLm.js                                         [39m[1m[2m   37.19 kB[22m[22m[2m │ gzip:   7.70 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36museLogsTreeExpand-zTc1sAPt.js                           [39m[1m[2m   37.38 kB[22m[22m[2m │ gzip:   9.55 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mCalendarDate-Chd8imY9.js                                [39m[1m[2m   37.38 kB[22m[22m[2m │ gzip:   7.79 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mItemsRenderer-DLRpkUxT.js                               [39m[1m[2m   37.64 kB[22m[22m[2m │ gzip:   8.06 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mvue-json-pretty-B9qWbmOF.js                             [39m[1m[2m   38.13 kB[22m[22m[2m │ gzip:  10.63 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mcore-CXk6RNMV.js                                        [39m[1m[2m   38.16 kB[22m[22m[2m │ gzip:  10.82 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mProjectSettings-BWMgsIlA.js                             [39m[1m[2m   39.10 kB[22m[22m[2m │ gzip:   8.28 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mNodeDetailsViewV2-DlOalFin.js                           [39m[1m[2m   39.67 kB[22m[22m[2m │ gzip:   9.98 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mtemplates.store-DS-loeY6.js                             [39m[1m[2m   39.88 kB[22m[22m[2m │ gzip:  13.21 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mreadyToRunWorkflows.store-BpS5POPB.js                   [39m[1m[2m   40.31 kB[22m[22m[2m │ gzip:  10.28 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mWorkflowHistory-n3Uy-JDa.js                             [39m[1m[2m   43.35 kB[22m[22m[2m │ gzip:   9.24 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mNodeDetailsView-D4KqVlxe.js                             [39m[1m[2m   44.12 kB[22m[22m[2m │ gzip:  10.46 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mTemplatesSearchView-CHfKmYIB.js                         [39m[1m[2m   44.31 kB[22m[22m[2m │ gzip:  10.50 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mSettingsMCPView-CBYms-B5.js                             [39m[1m[2m   47.69 kB[22m[22m[2m │ gzip:   9.43 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mSettingsSso-Bz9kjHi1.js                                 [39m[1m[2m   50.70 kB[22m[22m[2m │ gzip:   9.79 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36msemver-Boi6RurY.js                                      [39m[1m[2m   51.01 kB[22m[22m[2m │ gzip:  11.19 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mTriggerPanel-CAk1hqev.js                                [39m[1m[2m   56.90 kB[22m[22m[2m │ gzip:  12.31 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mChatView-DVYfBte7.js                                    [39m[1m[2m   60.83 kB[22m[22m[2m │ gzip:  13.65 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mexports-CdZcr9ah.js                                     [39m[1m[2m   61.43 kB[22m[22m[2m │ gzip:  15.92 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mAddDataTableModal-Ca-HukdB.js                           [39m[1m[2m   61.65 kB[22m[22m[2m │ gzip:  14.55 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mNodeCreator-w7yJ5Z5Z.js                                 [39m[1m[2m   63.30 kB[22m[22m[2m │ gzip:  14.20 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mSettingsLdapView-Bx9quL4X.js                            [39m[1m[2m   71.14 kB[22m[22m[2m │ gzip:  14.41 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36museCanvasOperations-DoK_HTnd.js                         [39m[1m[2m   76.90 kB[22m[22m[2m │ gzip:  17.17 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mNodeSettings-6ke0GzmU.js                                [39m[1m[2m   82.04 kB[22m[22m[2m │ gzip:  17.82 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mMainHeader-DEYo2mk8.js                                  [39m[1m[2m   83.97 kB[22m[22m[2m │ gzip:  18.78 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mVirtualSchema-BffC707V.js                               [39m[1m[2m   85.27 kB[22m[22m[2m │ gzip:  22.51 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36museCommandBar-KHNqCvZU.js                               [39m[1m[2m   85.48 kB[22m[22m[2m │ gzip:  16.45 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mempty-BuGRxzl4.js                                       [39m[1m[2m   89.28 kB[22m[22m[2m │ gzip:  18.85 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mLogsPanel-DXLj5lc9.js                                   [39m[1m[2m   95.97 kB[22m[22m[2m │ gzip:  21.87 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36m_baseOrderBy-9ZFWO7yR.js                                [39m[1m[2m  104.64 kB[22m[22m[2m │ gzip:  29.68 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mNodeView-D6JepUyL.js                                    [39m[1m[2m  105.29 kB[22m[22m[2m │ gzip:  24.04 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mrouter-uMDsfPDx.js                                      [39m[1m[2m  120.71 kB[22m[22m[2m │ gzip:  27.31 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mnodeCreator.store-CAp1WKI6.js                           [39m[1m[2m  123.97 kB[22m[22m[2m │ gzip:  23.98 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mtable-8WC3LGWp.js                                       [39m[1m[2m  134.50 kB[22m[22m[2m │ gzip:  32.91 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mWorkflowsView-Br9X1YTm.js                               [39m[1m[2m  136.16 kB[22m[22m[2m │ gzip:  25.40 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mvue-0rlD32wK.js                                         [39m[1m[2m  154.13 kB[22m[22m[2m │ gzip:  38.44 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mdate-picker-REtJNEHH.js                                 [39m[1m[2m  157.47 kB[22m[22m[2m │ gzip:  32.35 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mtruncate-DQ63YXWZ.js                                    [39m[1m[2m  161.34 kB[22m[22m[2m │ gzip:  40.57 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mRunDataJsonActions-BAZFkNDf.js                          [39m[1m[2m  178.88 kB[22m[22m[2m │ gzip:  38.21 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mvue.runtime.esm-bundler-tP5dCd7J.js                     [39m[1m[2m  274.46 kB[22m[22m[2m │ gzip:  69.13 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mlanguageModules-GJLbrGx7.js                             [39m[1m[2m  297.51 kB[22m[22m[2m │ gzip:  83.30 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36museImportCurlCommand-CEZces0Y.js                        [39m[1m[2m  313.68 kB[22m[22m[2m │ gzip:  63.43 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mchart-BxWK2ZOo.js                                       [39m[1m[2m  348.73 kB[22m[22m[2m │ gzip:  86.01 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36msanitize-html-CASNtzdR.js                               [39m[1m[2m  365.42 kB[22m[22m[2m │ gzip:  94.86 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36museCanvasMapping-DLmwnGhb.js                            [39m[1m[2m  451.70 kB[22m[22m[2m │ gzip: 102.76 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36m_MapCache-DAV-sMxH.js                                   [39m[1m[33m  529.36 kB[39m[22m[2m │ gzip: 119.46 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mNDVEmptyState-w54Q9f8s.js                               [39m[1m[33m  727.35 kB[39m[22m[2m │ gzip: 183.66 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mbuilder.store-rdUb0kJv.js                               [39m[1m[33m  960.45 kB[39m[22m[2m │ gzip: 225.03 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mindex-VguGhDft.js                                       [39m[1m[33m1,083.10 kB[39m[22m[2m │ gzip: 226.84 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mes-BskBLtZB.js                                          [39m[1m[33m1,190.50 kB[39m[22m[2m │ gzip: 324.96 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36misEmpty-Cz7hlShU.js                                     [39m[1m[33m1,339.65 kB[39m[22m[2m │ gzip: 333.78 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mParameterInputList-Bz3CFFbt.js                          [39m[1m[33m1,411.07 kB[39m[22m[2m │ gzip: 349.38 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mDataTableDetailsView-BlbUg6rC.js                        [39m[1m[33m1,590.13 kB[39m[22m[2m │ gzip: 355.30 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36msrc-5oErUsep.js                                         [39m[1m[33m1,870.50 kB[39m[22m[2m │ gzip: 403.46 kB[22m
+n8n-editor-ui:build: [2mdist/[22m[2massets/[22m[36mconstants-BF_aLZJe.js                                   [39m[1m[33m2,846.44 kB[39m[22m[2m │ gzip: 549.96 kB[22m
+n8n-editor-ui:build: [33m[EVAL] Warning:[0m Use of `eval` function is strongly discouraged as it poses security risks and may cause issues with minification.
+n8n-editor-ui:build:       [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m ../../../node_modules/.pnpm/web-tree-sitter@0.24.3/node_modules/web-tree-sitter/tree-sitter.js:1195:37 [38;5;246m][0m
+n8n-editor-ui:build:       [38;5;246m│[0m
+n8n-editor-ui:build:  [38;5;246m1195 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249mA[0m[38;5;249mS[0m[38;5;249mM[0m[38;5;249m_[0m[38;5;249mC[0m[38;5;249mO[0m[38;5;249mN[0m[38;5;249mS[0m[38;5;249mT[0m[38;5;249mS[0m[38;5;249m[[0m[38;5;249ms[0m[38;5;249mt[0m[38;5;249ma[0m[38;5;249mr[0m[38;5;249mt[0m[38;5;249m][0m[38;5;249m [0m[38;5;249m=[0m[38;5;249m [0meval[38;5;249m([0m[38;5;249mf[0m[38;5;249mu[0m[38;5;249mn[0m[38;5;249mc[0m[38;5;249m)[0m[38;5;249m;[0m
+n8n-editor-ui:build:  [38;5;240m     │[0m                                     ──┬─  
+n8n-editor-ui:build:  [38;5;240m     │[0m                                       ╰─── Use of `eval` function here.
+n8n-editor-ui:build: [38;5;246m──────╯[0m
+n8n-editor-ui:build: 
+n8n-editor-ui:build: [33m[EVAL] Warning:[0m Use of `eval` function is strongly discouraged as it poses security risks and may cause issues with minification.
+n8n-editor-ui:build:       [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m ../../../node_modules/.pnpm/web-tree-sitter@0.24.3/node_modules/web-tree-sitter/tree-sitter.js:1221:39 [38;5;246m][0m
+n8n-editor-ui:build:       [38;5;246m│[0m
+n8n-editor-ui:build:  [38;5;246m1221 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249mm[0m[38;5;249mo[0m[38;5;249md[0m[38;5;249mu[0m[38;5;249ml[0m[38;5;249me[0m[38;5;249mE[0m[38;5;249mx[0m[38;5;249mp[0m[38;5;249mo[0m[38;5;249mr[0m[38;5;249mt[0m[38;5;249ms[0m[38;5;249m[[0m[38;5;249mn[0m[38;5;249ma[0m[38;5;249mm[0m[38;5;249me[0m[38;5;249m][0m[38;5;249m [0m[38;5;249m=[0m[38;5;249m [0meval[38;5;249m([0m[38;5;249mf[0m[38;5;249mu[0m[38;5;249mn[0m[38;5;249mc[0m[38;5;249m)[0m[38;5;249m;[0m
+n8n-editor-ui:build:  [38;5;240m     │[0m                                       ──┬─  
+n8n-editor-ui:build:  [38;5;240m     │[0m                                         ╰─── Use of `eval` function here.
+n8n-editor-ui:build: [38;5;246m──────╯[0m
+n8n-editor-ui:build: 
+n8n-editor-ui:build: ✓ built in 56.82s
+n8n-nodes-base:build: 
+n8n-nodes-base:build: > n8n-nodes-base@2.1.0 copy-nodes-json /Users/richard/Desktop/projects/n8n/packages/nodes-base
+n8n-nodes-base:build: > node scripts/copy-nodes-json.js .
+n8n-nodes-base:build: 
+n8n-nodes-base:build: Default locale set to: [35men[0m
+n8n-nodes-base:build: No translation required - Skipping translations build...
+n8n-nodes-base:build: (node:41005) [DEP0030] DeprecationWarning: SlowBuffer() is deprecated. Please use Buffer.allocUnsafeSlow()
+n8n-nodes-base:build: (Use `node --trace-deprecation ...` to show where the warning was created)
+@n8n/n8n-nodes-langchain:build: cache miss, executing 96fb558ce177b039
+@n8n/n8n-nodes-langchain:build: 
+@n8n/n8n-nodes-langchain:build: > @n8n/n8n-nodes-langchain@2.1.0 build /Users/richard/Desktop/projects/n8n/packages/@n8n/nodes-langchain
+@n8n/n8n-nodes-langchain:build: > tsup --tsconfig tsconfig.build.json && pnpm copy-nodes-json && tsc-alias -p tsconfig.build.json && pnpm copy-tokenizer-json && pnpm n8n-copy-static-files && pnpm n8n-generate-metadata
+@n8n/n8n-nodes-langchain:build: 
+@n8n/n8n-nodes-langchain:build: 
+@n8n/n8n-nodes-langchain:build: > @n8n/n8n-nodes-langchain@2.1.0 copy-nodes-json /Users/richard/Desktop/projects/n8n/packages/@n8n/nodes-langchain
+@n8n/n8n-nodes-langchain:build: > node ../../nodes-base/scripts/copy-nodes-json.js .
+@n8n/n8n-nodes-langchain:build: 
+@n8n/n8n-nodes-langchain:build: 
+@n8n/n8n-nodes-langchain:build: > @n8n/n8n-nodes-langchain@2.1.0 copy-tokenizer-json /Users/richard/Desktop/projects/n8n/packages/@n8n/nodes-langchain
+@n8n/n8n-nodes-langchain:build: > node scripts/copy-tokenizer-json.js .
+@n8n/n8n-nodes-langchain:build: 
+@n8n/n8n-nodes-langchain:build: Copied: utils/tokenizer/cl100k_base.json -> dist/utils/tokenizer/cl100k_base.json
+@n8n/n8n-nodes-langchain:build: Copied: utils/tokenizer/o200k_base.json -> dist/utils/tokenizer/o200k_base.json
+n8n:build: cache miss, executing 68c533db46112526
+n8n:build: 
+n8n:build: > n8n@2.1.0 build /Users/richard/Desktop/projects/n8n/packages/cli
+n8n:build: > tsc -p tsconfig.build.json && tsc-alias -p tsconfig.build.json && pnpm run build:data
+n8n:build: 
+n8n:build: 
+n8n:build: > n8n@2.1.0 build:data /Users/richard/Desktop/projects/n8n/packages/cli
+n8n:build: > node scripts/build.mjs
+n8n:build: 
+
+ Tasks:    39 successful, 39 total
+Cached:    36 cached, 39 total
+  Time:    32.707s 
+

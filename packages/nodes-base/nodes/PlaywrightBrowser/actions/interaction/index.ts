@@ -1,0 +1,9 @@
+export * as click from './click.operation';
+export * as type from './type.operation';
+export * as fill from './fill.operation';
+export * as press from './press.operation';
+export * as hover from './hover.operation';
+export * as scroll from './scroll.operation';
+export * as check from './check.operation';
+export * as selectOption from './selectOption.operation';
+export * as uploadFile from './uploadFile.operation';
