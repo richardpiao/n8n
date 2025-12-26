@@ -1,0 +1,17 @@
+{
+	"node": "n8n-nodes-base.playwrightImport",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Development", "Miscellaneous"],
+	"resources": {
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.playwrightimport/"
+			}
+		]
+	},
+	"alias": ["playwright", "recording", "crx", "import", "browser", "automation", "chrome"],
+	"subcategories": {
+		"Development": ["Web Scraping"]
+	}
+}

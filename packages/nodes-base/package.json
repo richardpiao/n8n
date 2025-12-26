@@ -714,6 +714,7 @@
       "dist/nodes/PipelineGenerator/PipelineGenerator.node.js",
       "dist/nodes/Plivo/Plivo.node.js",
       "dist/nodes/PlaywrightBrowser/PlaywrightBrowser.node.js",
+      "dist/nodes/PlaywrightImport/PlaywrightImport.node.js",
       "dist/nodes/PostBin/PostBin.node.js",
       "dist/nodes/Postgres/Postgres.node.js",
       "dist/nodes/Postgres/PostgresTrigger.node.js",
